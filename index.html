@@ -1,0 +1,1080 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0F1913">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2022%2024%22%3E%3Crect%20width%3D%2222%22%20height%3D%2224%22%20rx%3D%225%22%20fill%3D%22%230F1913%22/%3E%3Cpath%20d%3D%22M8.5%2015.0%20L8.3%2013.6%20L9.0%2010.5%20L10.9%206.9%20L13.6%204.2%20L16.3%203.2%20L17.8%204.2%20L17.6%206.3%20L15.8%208.8%20L13.3%2010.7%20L11.3%2011.7%20L10.7%2012.1%20L11.8%2012.6%20L14.2%2013.8%20L16.6%2016.0%20L17.9%2018.5%20L17.5%2020.4%20L15.5%2020.7%20L12.7%2019.1%20L10.1%2015.9%20L8.6%2012.4%20L8.3%209.7%20L8.7%209.0%20L8.9%2010.2%20L8.2%2012.8%20L6.6%2015.6%20L4.6%2017.3%20L3.2%2017.4%20L3.3%2016.0%20L5.1%2013.9%20L8.1%2012.2%20L11.2%2011.4%20L13.2%2011.7%20L13.2%2012.3%20L11.2%2012.6%20L8.1%2011.8%20L5.1%2010.1%20L3.3%208.0%20L3.2%206.6%20L4.6%206.7%20L6.6%208.4%20L8.2%2011.2%20L8.9%2013.8%20L8.7%2015.0%20L8.3%2014.2%20L8.6%2011.6%20L10.1%208.0%20L12.7%204.9%20L15.5%203.3%20L17.5%203.6%20L17.9%205.5%20L16.6%208.0%20L14.2%2010.1%20L11.9%2011.4%20L10.8%2012.0%20L11.4%2012.4%20L13.4%2013.3%20L15.9%2015.2%20L17.7%2017.7%20L17.9%2020.0%20L16.4%2020.9%20L13.7%2020.0%20L11.0%2017.3%20L9.0%2013.8%20L8.3%2010.7%20L8.5%209.2%20L8.8%209.9%20L8.5%2012.2%20L7.1%2015.0%20L5.1%2017.2%20L3.3%2017.8%20L2.8%2016.8%20L3.9%2014.8%20L6.6%2012.8%20L9.8%2011.7%20L12.2%2011.6%20L12.9%2012.1%20L11.5%2012.5%20L8.6%2012.0%20L5.4%2010.5%20L3.1%208.3%20L2.5%206.5%20L3.6%205.9%20L5.6%207.0%20L7.5%209.5%20L8.5%2012.2%20L8.7%2013.9%20L8.4%2013.8%20L8.6%2011.7%20L9.8%208.3%20L12.2%204.9%20L15.2%202.7%20L17.8%202.5%20L18.9%204.0%20L18.3%206.6%20L16.3%209.1%20L13.9%2010.8%20L12.3%2011.7%20L12.4%2012.3%20L14.0%2013.2%20L16.5%2015.0%20L18.6%2017.6%20L19.3%2020.3%20L18.2%2021.9%20L15.6%2021.8%20L12.6%2019.8%20L10.1%2016.6%20L8.8%2013.3%20L8.5%2011.3%20L8.6%2011.2%20L8.3%2013.0%20L7.0%2015.8%20L4.8%2018.2%20L2.7%2019.3%20L1.4%2018.6%20L1.8%2016.7%20L3.8%2014.3%20L6.8%2012.5%20L9.6%2011.8%20L10.9%2011.9%20L10.2%2012.2%20L7.7%2011.8%20L4.6%2010.3%20L2.0%208.0%20L1.0%205.7%20L1.8%204.4%20L3.8%204.8%20L6.1%206.7%20L7.7%209.4%20L8.4%2011.6%20L8.5%2012.1%20L8.7%2010.7%20L9.8%207.7%20L12.1%204.2%20L15.2%201.7%20L18.3%201.0%20L20.1%202.2%20L20.2%204.8%20L18.6%207.6%20L16.2%209.9%20L14.3%2011.3%20L13.7%2012.1%20L14.8%2013.1%20L17.0%2014.8%20L19.3%2017.3%20L20.4%2020.2%20L19.7%2022.4%20L17.3%2023.0%20L14.2%2021.6%20L11.2%2018.7%20L9.3%2015.2%20L8.6%2012.6%20L8.5%2011.8%20L8.3%2013.0%20L7.3%2015.5%20L5.3%2018.1%20L3.0%2019.6%20L1.3%2019.4%20L1.1%2017.6%20L2.7%2015.2%20L5.6%2013.1%20L8.7%2012.0%20L10.6%2011.9%20L10.7%2012.2%20L8.8%2012.1%20L5.8%2011.0%20L3.0%208.9%20L1.4%206.6%20L1.6%205.0%20L3.3%204.9%20L5.6%206.5%20L7.5%209.2%20L8.5%2011.7%20L8.6%2013.0%20L8.5%2012.3%20L9.1%209.7%20L10.8%206.3%20L13.6%203.4%20L16.6%201.9%20L18.8%202.5%20L19.3%204.6%20L18.0%207.3%20L15.7%209.7%20L13.4%2011.2%20L12.2%2011.9%20L12.7%2012.5%20L14.7%2013.7%20L17.0%2015.7%20L18.7%2018.3%20L18.8%2020.7%20L17.1%2021.7%20L14.2%2020.8%20L11.3%2018.1%20L9.3%2014.5%20L8.4%2011.4%20L8.5%209.9%20L8.7%2010.5%20L8.3%2012.7%20L6.9%2015.5%20L4.9%2017.6%20L3.1%2018.1%20L2.5%2017.0%20L3.7%2015.0%20L6.4%2012.9%20L9.7%2011.7%20L12.1%2011.6%20L12.9%2012.1%20L11.5%2012.5%20L8.7%2012.1%20L5.6%2010.6%20L3.4%208.5%20L2.8%206.7%20L3.8%206.2%20L5.8%207.4%20L7.7%209.9%20L8.7%2012.8%20L8.8%2014.6%20L8.4%2014.5%20L8.4%2012.4%20L9.5%209.1%20L11.8%205.7%20L14.7%203.5%20L17.1%203.2%20L18.1%204.7%20L17.3%207.1%20L15.1%209.5%20L12.6%2011.1%20L11.0%2011.8%20L11.0%2012.2%20L12.6%2012.9%20L15.1%2014.5%20L17.2%2016.9%20L18.0%2019.3%20L17.0%2020.7%20L14.6%2020.4%20L11.8%2018.2%20L9.5%2014.8%20L8.4%2011.4%20L8.4%209.3%20L8.8%209.2%20L8.8%2011.0%20L7.8%2013.8%20L6.0%2016.3%20L4.1%2017.5%20L3.1%2017.1%20L3.7%2015.3%20L6.0%2013.3%20L9.2%2011.8%20L12.0%2011.4%20L13.4%2011.9%20L12.7%2012.5%20L10.2%2012.5%20L7.0%2011.3%20L4.3%209.4%20L3.1%207.4%20L3.6%206.5%20L5.3%207.1%20L7.2%209.3%20L8.5%2012.1%20L8.9%2014.4%20L8.5%2015.0Z%22%20fill%3D%22none%22%20stroke%3D%22%23EDBE62%22%20stroke-width%3D%22.8%22/%3E%3C/svg%3E">
+<title>La Mariposa Resort</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="La Mariposa Resort: a garden wedding and event venue in Tucson, Arizona with a gazebo, pond, mesquite trees and the Starlight Room, beneath the Santa Catalina Mountains.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Hanken+Grotesk:wght@400;500;600&display=swap">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"EventVenue","name":"La Mariposa Resort","description":"Garden wedding and special events venue in Tucson, Arizona.","url":"https://lamariposaresort.com/","telephone":"+1-520-749-1099","email":"weddings@lamariposaresort.com","address":{"@type":"PostalAddress","streetAddress":"1501 N. Houghton Rd.","addressLocality":"Tucson","addressRegion":"AZ","postalCode":"85749","addressCountry":"US"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"141","bestRating":"5"}}
+</script>
+<style>
+/* Layout concept: a dusk-to-day scroll. Dark mesquite-shade bands carry the cinematic moments
+   (hero, the day story, reviews, contact); linen bands carry the practical decisions (spaces, pricing, menus, FAQ).
+   Deliberate single look, so every color is set explicitly. */
+:root{
+  --night:#0F1913;      /* shade under the mesquites at dusk */
+  --moss:#1B2A20;       /* second dark band */
+  --leaf:#3B5841;       /* lawn green */
+  --sage:#A9B697;       /* olive-sage, bridesmaid silk */
+  --bulb:#EDBE62;       /* string-light gold */
+  --brass:#7E5612;      /* gold that reads on linen */
+  --linen:#F1F1E7;      /* table linen, slightly green-grey */
+  --paper:#FAFAF4;
+  --ink:#16201A;
+  --muted:#58655B;
+  --line:rgba(22,32,26,.14);
+  --line-d:rgba(241,241,231,.16);
+  --f-display:"Bodoni Moda","Didot","Bodoni 72","Times New Roman",serif;
+  --f-body:"Hanken Grotesk",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --gutter:clamp(16px,4.5vw,64px);
+  --max:1240px;
+  color-scheme:light;
+}
+body{background:var(--night);color:var(--ink);margin:0}
+.lm{font-family:var(--f-body);font-size:1.0625rem;line-height:1.6;color:var(--ink);background:var(--linen);-webkit-font-smoothing:antialiased;overflow-x:clip}
+.lm *,.lm *::before,.lm *::after{box-sizing:border-box}
+.lm img{max-width:100%;display:block}
+.lm a{color:inherit}
+.lm h1,.lm h2,.lm h3{font-family:var(--f-display);font-weight:400;margin:0;text-wrap:balance;letter-spacing:-.01em}
+.lm h2{font-size:clamp(2.25rem,5.2vw,4.25rem);line-height:1.02}
+.lm h3{font-size:clamp(1.375rem,2vw,1.625rem);line-height:1.15}
+.lm p{margin:0}
+.lm :focus-visible{outline:2px solid var(--bulb);outline-offset:3px;border-radius:4px}
+.lm-wrap{max-width:var(--max);margin-inline:auto;padding-inline:var(--gutter)}
+.lm-band{padding-block:clamp(72px,11vw,148px)}
+.lm-dark{background:var(--night);color:var(--linen)}
+.lm-moss{background:var(--moss);color:var(--linen)}
+.lm-paper{background:var(--paper)}
+.lm-lede{font-size:clamp(1.0625rem,1.4vw,1.25rem);color:var(--muted);max-width:58ch}
+.lm-dark .lm-lede,.lm-moss .lm-lede{color:rgba(241,241,231,.74)}
+.lm-it{font-style:italic}
+.lm-skip{position:absolute;left:-999px;top:8px;background:var(--bulb);color:var(--night);padding:8px 14px;border-radius:999px;z-index:100}
+.lm-skip:focus{left:12px}
+
+/* Buttons */
+.lm-btn{--bx:0px;--by:0px;display:inline-flex;align-items:center;gap:.6em;font:600 .9375rem/1 var(--f-body);letter-spacing:.01em;padding:1.05em 1.6em;border-radius:999px;text-decoration:none;border:1px solid transparent;cursor:pointer;transform:translate(var(--bx),var(--by));transition:transform .35s cubic-bezier(.2,.8,.2,1),background-color .25s,color .25s,border-color .25s}
+.lm .lm-btn-gold{background:var(--bulb);color:var(--night)}
+.lm-btn-gold:hover{background:#F5CF7F}
+.lm .lm-btn-ghost{border-color:rgba(241,241,231,.45);color:var(--linen);background:transparent}
+.lm-btn-ghost:hover{border-color:var(--linen);background:rgba(241,241,231,.08)}
+.lm .lm-btn-ink{background:var(--ink);color:var(--linen)}
+.lm-btn-ink:hover{background:var(--leaf)}
+.lm .lm-btn-line{border-color:var(--line);color:var(--ink);background:transparent}
+.lm-btn-line:hover{border-color:var(--ink)}
+
+/* Nav */
+.lm-nav{position:fixed;inset:0 0 auto 0;z-index:50;padding-top:env(safe-area-inset-top,0px);transition:background-color .4s,box-shadow .4s,color .4s;color:var(--linen)}
+.lm-nav.is-solid{background:rgba(241,241,231,.9);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);color:var(--ink);box-shadow:0 1px 0 var(--line)}
+.lm-nav-in{display:flex;align-items:center;justify-content:space-between;gap:20px;height:76px;max-width:var(--max);margin-inline:auto;padding-inline:var(--gutter)}
+.lm-mark{display:flex;align-items:center;gap:12px;text-decoration:none}
+.lm-mark svg{width:30px;height:30px;flex:none}
+.lm-mark svg path{fill:none;stroke:currentColor;stroke-width:.55}
+.lm-mark b{font:italic 400 1.5rem/1 var(--f-display);letter-spacing:-.01em}
+.lm-mark small{display:block;font:500 .6875rem/1.2 var(--f-body);letter-spacing:.08em;opacity:.75;margin-top:3px}
+.lm-links{display:flex;align-items:center;gap:clamp(14px,2vw,30px);list-style:none;margin:0;padding:0}
+.lm-links a{font-size:.9375rem;font-weight:500;text-decoration:none;opacity:.86}
+.lm-links a:hover{opacity:1;text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
+.lm-nav .lm-btn{padding:.85em 1.25em}
+.lm .lm-nav.is-solid .lm-btn-ghost{border-color:var(--ink);color:var(--ink)}
+.lm-menu-btn{display:none;background:none;border:1px solid currentColor;color:inherit;border-radius:999px;padding:.6em 1em;font:600 .875rem/1 var(--f-body);cursor:pointer}
+@media (max-width:980px){
+  .lm-links{position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:flex-start;gap:6px;background:var(--linen);color:var(--ink);padding:18px var(--gutter) 28px;box-shadow:0 20px 40px rgba(0,0,0,.18);transform:translateY(-12px);opacity:0;pointer-events:none;transition:opacity .25s,transform .25s}
+  .lm-links.is-open{opacity:1;transform:none;pointer-events:auto}
+  .lm-links a{font-size:1.25rem;font-family:var(--f-display);padding-block:6px}
+  .lm-menu-btn{display:inline-flex}
+  .lm-nav-cta{display:none}
+}
+
+/* Hero */
+.lm-hero{position:relative;min-height:clamp(600px,90vh,920px);display:flex;flex-direction:column;justify-content:flex-end;color:var(--linen);background:var(--night);isolation:isolate;overflow:hidden}
+.lm-hero-bg{position:absolute;inset:-6% 0 0 0;z-index:-3}
+.lm-hero-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 40%;transform-origin:50% 60%;filter:brightness(.8) saturate(1.06)}
+.lm-hero::before{content:"";position:absolute;inset:0;z-index:-2;background:
+  radial-gradient(30% 44% at 81% 42%,rgba(15,25,19,.5) 0%,rgba(15,25,19,0) 100%),
+  linear-gradient(90deg,rgba(15,25,19,.62) 0%,rgba(15,25,19,.18) 60%,rgba(15,25,19,.10) 100%),
+  linear-gradient(180deg,rgba(15,25,19,.72) 0%,rgba(15,25,19,.22) 24%,rgba(15,25,19,.34) 52%,rgba(15,25,19,.96) 100%)}
+@media (max-width:760px){.lm-hero::before{background:linear-gradient(180deg,rgba(15,25,19,.55) 0%,rgba(15,25,19,.35) 30%,rgba(15,25,19,.8) 55%,rgba(15,25,19,.97) 100%)}}
+.lm-hero canvas{position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+.lm-hero-in{width:100%;max-width:var(--max);margin-inline:auto;padding:178px var(--gutter) 0}
+@media (max-width:760px){.lm-hero-in{padding-top:290px}}
+.lm-kicker{font:italic 400 clamp(1.0625rem,1.6vw,1.375rem)/1.3 var(--f-display);color:var(--bulb);margin-bottom:18px;text-shadow:0 1px 18px rgba(15,25,19,.8)}
+.lm-hero h1{font-size:clamp(3.25rem,10vw,8.5rem);line-height:.92;font-style:italic;font-variation-settings:"opsz" 96;letter-spacing:-.025em;max-width:10ch}
+.lm-hero h1 .lm-line{display:block;overflow:hidden;padding-bottom:.08em}
+.lm-hero h1 .lm-line>span{display:inline-block}
+.lm-hero-sub{margin-top:26px;font-size:clamp(1.0625rem,1.5vw,1.25rem);max-width:52ch;color:rgba(241,241,231,.86)}
+.lm-hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.lm-proof{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:clamp(48px,7vw,84px);border-top:1px solid var(--line-d)}
+.lm-proof>div{padding:22px 18px 30px 0}
+.lm-proof>div+div{padding-left:22px;border-left:1px solid var(--line-d)}
+.lm-proof strong{display:block;font:400 clamp(2rem,3.4vw,2.875rem)/1 var(--f-display);color:var(--linen);font-variant-numeric:tabular-nums}
+.lm-proof>div>span{display:block;margin-top:8px;font-size:.875rem;line-height:1.4;color:rgba(241,241,231,.7);max-width:24ch}
+@media (max-width:760px){
+  .lm-proof{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .lm-proof>div:nth-child(3){padding-left:0;border-left:0}
+  .lm-proof>div:nth-child(n+3){border-top:1px solid var(--line-d)}
+}
+
+/* Why */
+.lm-why-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(40px,7vw,110px);align-items:start}
+.lm-why-grid h2{position:sticky;top:120px}
+.lm-qa{display:grid;gap:0}
+.lm-qa>div{padding-block:34px;border-top:1px solid var(--line)}
+.lm-qa>div:last-child{border-bottom:1px solid var(--line)}
+.lm-qa h3{font-style:italic;margin-bottom:12px}
+.lm-qa p{color:var(--muted);max-width:56ch}
+.lm-qa p b{color:var(--ink);font-weight:600}
+@media (max-width:860px){.lm-why-grid{grid-template-columns:1fr}.lm-why-grid h2{position:static}}
+
+/* Spaces */
+.lm-sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px 60px;margin-bottom:clamp(40px,6vw,72px)}
+.lm-sec-head h2{max-width:13ch}
+.lm-spaces{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(14px,1.8vw,24px)}
+.lm-space{grid-column:span 6;position:relative;border-radius:20px;overflow:hidden;background:var(--night);color:var(--linen);min-height:clamp(380px,40vw,560px);display:flex;flex-direction:column;justify-content:flex-end;transform-style:preserve-3d;transition:transform .5s cubic-bezier(.2,.8,.2,1),box-shadow .5s;will-change:transform}
+.lm-space:nth-child(1){grid-column:span 7}
+.lm-space:nth-child(2){grid-column:span 5}
+.lm-space:nth-child(3){grid-column:span 5}
+.lm-space:nth-child(4){grid-column:span 7}
+.lm-space img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.8,.2,1)}
+.lm-space::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,25,19,0) 35%,rgba(15,25,19,.88) 100%);pointer-events:none}
+.lm-space .lm-glare{position:absolute;inset:0;z-index:2;pointer-events:none;background:radial-gradient(500px circle at var(--gx,50%) var(--gy,50%),rgba(255,236,190,.22),transparent 45%);opacity:0;transition:opacity .4s}
+.lm-space:hover .lm-glare{opacity:1}
+.lm-space:hover img{transform:scale(1.04)}
+.lm-space-txt{position:relative;z-index:3;padding:clamp(22px,3vw,36px);transform:translateZ(40px)}
+.lm-space-txt p{margin-top:10px;color:rgba(241,241,231,.82);max-width:46ch;font-size:1rem}
+.lm-space-txt .lm-tag{display:inline-block;margin-top:14px;font-size:.8125rem;font-weight:600;color:var(--bulb)}
+.lm-space-plain{background:var(--leaf)}
+.lm-space-plain::after{display:none}
+.lm-space-plain .lm-suite{position:absolute;inset:0;display:grid;place-items:center;padding:40px;opacity:.95}
+.lm-suite-list{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:8px;font-size:.9375rem;color:rgba(241,241,231,.86)}
+.lm-suite-list li{display:flex;gap:10px}
+.lm-suite-list li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--bulb);margin-top:.6em;flex:none}
+@media (max-width:860px){.lm-space,.lm-space:nth-child(n){grid-column:1/-1;min-height:420px}}
+
+/* Story */
+.lm-story-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(40px,6vw,96px);margin-top:clamp(40px,6vw,72px)}
+.lm-stage{position:sticky;top:96px;height:calc(100vh - 140px);max-height:760px;min-height:460px;border-radius:24px;overflow:hidden;background:var(--moss)}
+.lm-stage figure{position:absolute;inset:0;margin:0;clip-path:inset(100% 0 0 0);transition:clip-path 1.1s cubic-bezier(.7,0,.2,1)}
+.lm-stage figure.is-on{clip-path:inset(0 0 0 0)}
+.lm-stage figure:first-child{clip-path:inset(0 0 0 0)}
+.lm-stage img{width:100%;height:100%;object-fit:cover;transform:scale(1.12);transition:transform 2.2s cubic-bezier(.2,.8,.2,1)}
+.lm-stage figure.is-on img{transform:scale(1)}
+.lm-stage-count{position:absolute;left:22px;bottom:20px;z-index:5;display:flex;gap:8px}
+.lm-stage-count i{display:block;width:34px;height:3px;border-radius:3px;background:rgba(241,241,231,.3);overflow:hidden}
+.lm-stage-count i.is-on{background:var(--bulb)}
+.lm-chapters{display:grid}
+.lm-ch{min-height:78vh;display:flex;flex-direction:column;justify-content:center;padding-block:40px;opacity:.38;transition:opacity .6s}
+.lm-ch.is-on{opacity:1}
+.lm-ch-time{font:italic 400 1.25rem/1 var(--f-display);color:var(--bulb);margin-bottom:16px}
+.lm-ch h3{font-size:clamp(2rem,3.6vw,3.25rem);line-height:1.02;margin-bottom:18px}
+.lm-ch p{color:rgba(241,241,231,.78);max-width:42ch;font-size:1.125rem}
+.lm .lm-ch-img{display:none}
+@media (max-width:900px){
+  .lm-story-grid{grid-template-columns:1fr}
+  .lm-stage{display:none}
+  .lm-ch{min-height:0;opacity:1;padding-block:28px}
+  .lm .lm-ch-img{display:block;border-radius:18px;aspect-ratio:4/3;width:100%;object-fit:cover;margin-bottom:22px}
+}
+
+/* Pricing */
+.lm-price{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(20px,3vw,40px);align-items:stretch}
+.lm-panel{background:var(--paper);border:1px solid var(--line);border-radius:24px;padding:clamp(22px,3vw,40px)}
+.lm-field{border:0;margin:0 0 30px;padding:0;min-width:0}
+.lm-field:last-child{margin-bottom:0}
+.lm-field legend,.lm-label{display:block;font-weight:600;font-size:.9375rem;margin-bottom:12px;padding:0}
+.lm-seg{display:flex;flex-wrap:wrap;gap:8px}
+.lm-seg input{position:absolute;opacity:0;pointer-events:none}
+.lm-seg label{display:inline-flex;align-items:center;justify-content:center;min-width:64px;padding:.8em 1.1em;border:1px solid var(--line);border-radius:999px;cursor:pointer;font-weight:500;font-size:.9375rem;transition:background-color .2s,border-color .2s,color .2s;user-select:none}
+.lm-seg label:hover{border-color:var(--ink)}
+.lm-seg input:checked+label{background:var(--ink);border-color:var(--ink);color:var(--linen)}
+.lm-seg input:focus-visible+label{outline:2px solid var(--brass);outline-offset:2px}
+.lm-seg small{display:block;font-size:.75rem;opacity:.7;font-weight:400}
+.lm-seg-wide label{flex-direction:column;align-items:flex-start;border-radius:16px;min-width:0;flex:1 1 220px;text-align:left;gap:2px}
+.lm-range-row{display:flex;align-items:center;gap:18px}
+.lm-range-row output{font:400 2rem/1 var(--f-display);min-width:3.2ch;text-align:right;font-variant-numeric:tabular-nums}
+.lm input[type=range]{flex:1;min-width:0;accent-color:var(--leaf);height:28px}
+.lm select{width:100%;font:500 1rem var(--f-body);padding:.9em 1em;border-radius:14px;border:1px solid var(--line);background:var(--linen);color:var(--ink)}
+.lm-note{font-size:.8125rem;color:var(--muted);margin-top:10px}
+.lm-est{background:var(--night);color:var(--linen);border-color:transparent;display:flex;flex-direction:column}
+.lm-est-day{font:italic 400 1.375rem/1.2 var(--f-display);color:var(--bulb)}
+.lm-est-total{font:400 clamp(3rem,6vw,4.75rem)/1 var(--f-display);margin-block:14px 6px;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.lm-est dl{display:grid;grid-template-columns:1fr auto;gap:12px 20px;margin:26px 0 0;padding-top:22px;border-top:1px solid var(--line-d);font-size:.9375rem}
+.lm-est dt{color:rgba(241,241,231,.72)}
+.lm-est dd{margin:0;text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+.lm-warn{margin-top:18px;padding:12px 14px;border-radius:12px;background:rgba(237,190,98,.14);color:#F7D998;font-size:.875rem}
+.lm-est .lm-note{color:rgba(241,241,231,.6)}
+.lm-est .lm-btn{margin-top:auto;align-self:flex-start}
+.lm-est-spacer{flex:1;min-height:24px}
+.lm-incl{margin-top:clamp(28px,4vw,48px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:18px 28px;padding-top:28px;border-top:1px solid var(--line)}
+.lm-incl div{font-size:.9375rem;color:var(--muted)}
+.lm-incl b{display:block;color:var(--ink);font-family:var(--f-display);font-weight:400;font-size:1.25rem;margin-bottom:4px}
+@media (max-width:900px){.lm-price{grid-template-columns:1fr}}
+
+/* Menus */
+.lm-menus{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:0;border-top:1px solid var(--line)}
+.lm-menu{padding:30px 26px 34px 0;border-bottom:1px solid var(--line)}
+.lm-menu-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:12px}
+.lm-menu-top b{font:400 1.75rem/1 var(--f-display);color:var(--brass);font-variant-numeric:tabular-nums;white-space:nowrap}
+.lm-menu-top b small{font:500 .75rem var(--f-body);color:var(--muted);margin-left:2px}
+.lm-menu ul{list-style:none;margin:0;padding:0;color:var(--muted);font-size:.9375rem;display:grid;gap:6px}
+.lm-late{margin-top:clamp(36px,5vw,56px);display:flex;flex-wrap:wrap;gap:12px 36px;align-items:baseline}
+.lm-late h3{font-style:italic;font-size:1.5rem}
+.lm-late span{color:var(--muted);font-size:.9375rem}
+.lm-late span b{color:var(--ink);font-weight:600}
+
+/* Voices */
+.lm-marquee{margin-top:clamp(40px,6vw,64px);overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.lm-track{display:flex;gap:20px;width:max-content;animation:lm-marq 60s linear infinite}
+.lm-marquee:hover .lm-track{animation-play-state:paused}
+@keyframes lm-marq{to{transform:translateX(-50%)}}
+.lm-quote{width:min(78vw,420px);flex:none;margin:0;padding:30px;border:1px solid var(--line-d);border-radius:20px;background:rgba(241,241,231,.03)}
+.lm-quote blockquote{margin:0;font:italic 400 clamp(1.375rem,2.2vw,1.75rem)/1.25 var(--f-display);color:var(--linen)}
+.lm-quote figcaption{margin-top:18px;font-size:.875rem;color:rgba(241,241,231,.66)}
+.lm-quote figcaption b{color:var(--bulb);font-weight:600}
+.lm-team{margin-top:clamp(56px,8vw,96px);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:1px solid var(--line-d)}
+.lm-team>div{padding:28px 24px 0 0}
+.lm-team>div+div{padding-left:24px;border-left:1px solid var(--line-d)}
+.lm-team h3{font-size:1.625rem}
+.lm-team p{margin-top:6px;color:rgba(241,241,231,.7);font-size:.9375rem}
+.lm-team .lm-ph{display:inline-block;margin-top:10px;font-weight:600;color:var(--bulb);font-variant-numeric:tabular-nums;text-decoration:none}
+@media (max-width:760px){.lm-team{grid-template-columns:1fr}.lm-team>div+div{padding-left:0;border-left:0;border-top:1px solid var(--line-d);margin-top:24px}}
+
+/* Gallery: 3D photo ring, turned by scroll and drag */
+.lm-gal-sec{background:var(--night);color:var(--linen);overflow:hidden}
+.lm-gal-sec .lm-lede{color:rgba(241,241,231,.74)}
+.lm-ring-stage{--cw:clamp(220px,21vw,280px);--ch:calc(var(--cw)*1.33);--r:calc(var(--cw)*1.58);position:relative;height:calc(var(--ch) + 140px);perspective:2100px;perspective-origin:50% 38%;display:grid;place-items:center;cursor:grab;touch-action:pan-y;user-select:none}
+.lm-ring-stage.is-drag{cursor:grabbing}
+.lm-ring{position:relative;width:var(--cw);height:var(--ch);transform-style:preserve-3d;transform:translateZ(calc(var(--r) * -1)) rotateX(-7deg) rotateY(var(--rot,0deg))}
+.lm-ring-item{position:absolute;inset:0;margin:0;padding:0;border:0;background:var(--moss);border-radius:18px;overflow:hidden;cursor:zoom-in;transform:rotateY(calc(var(--i) * 40deg)) translateZ(var(--r));box-shadow:0 30px 60px rgba(0,0,0,.45);backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.lm-ring-item img{width:100%;height:100%;object-fit:cover;pointer-events:none}
+.lm-ring-item::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,236,190,.10),transparent 30%,rgba(15,25,19,.35));pointer-events:none}
+.lm-ring-floor{position:absolute;left:50%;bottom:18px;width:min(900px,90%);height:60px;transform:translateX(-50%);background:radial-gradient(50% 50% at 50% 50%,rgba(237,190,98,.18),transparent 70%);filter:blur(6px);pointer-events:none}
+.lm-ring-hint{text-align:center;font-size:.875rem;color:rgba(241,241,231,.6);margin-top:6px}
+.lm-credit{margin-top:22px;font-size:.875rem;color:rgba(241,241,231,.6);text-align:center}
+@media (max-width:760px){
+  .lm-ring-stage{height:auto;perspective:none;display:block;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px;cursor:auto;touch-action:auto;-webkit-overflow-scrolling:touch}
+  .lm-ring{transform:none!important;display:flex;gap:12px;width:max-content;height:auto;padding-inline:var(--gutter)}
+  .lm-ring-item{position:relative;inset:auto;transform:none;width:72vw;height:96vw;flex:none;scroll-snap-align:center}
+  .lm-ring-floor,.lm-ring-hint{display:none}
+}
+@media (prefers-reduced-motion:reduce){.lm-ring{transform:translateZ(calc(var(--r) * -1)) rotateX(-7deg) rotateY(0deg)}}
+.lm-dlg{border:0;padding:0;background:transparent;max-width:min(94vw,1400px);max-height:92vh}
+.lm-dlg::backdrop{background:rgba(10,16,12,.9)}
+.lm-dlg img{max-height:84vh;width:auto;margin:auto;border-radius:12px}
+.lm-dlg p{color:var(--linen);font-size:.875rem;margin-top:10px;text-align:center;font-family:var(--f-body)}
+.lm-dlg button{position:absolute;top:10px;right:10px;background:var(--linen);color:var(--ink);border:0;border-radius:999px;padding:.6em 1em;font:600 .875rem var(--f-body);cursor:pointer}
+
+/* FAQ */
+.lm-faq{max-width:900px}
+.lm-faq details{border-top:1px solid var(--line)}
+.lm-faq details:last-child{border-bottom:1px solid var(--line)}
+.lm-faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0;font:400 clamp(1.25rem,2vw,1.5rem)/1.25 var(--f-display)}
+.lm-faq summary::-webkit-details-marker{display:none}
+.lm-faq summary::after{content:"+";font:300 1.75rem/1 var(--f-body);color:var(--brass);transition:transform .3s}
+.lm-faq details[open] summary::after{transform:rotate(45deg)}
+.lm-faq details p{padding:0 0 26px;color:var(--muted);max-width:66ch}
+
+/* Contact */
+.lm-contact{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(40px,6vw,96px);align-items:start}
+.lm-contact-info{display:grid;gap:22px;margin-top:36px}
+.lm-contact-info div{padding-top:18px;border-top:1px solid var(--line-d)}
+.lm-contact-info span{display:block;font-size:.8125rem;color:rgba(241,241,231,.6);margin-bottom:4px}
+.lm-contact-info b{font:400 1.375rem/1.3 var(--f-display);font-variant-numeric:tabular-nums;user-select:all}
+.lm-form{background:var(--linen);color:var(--ink);border-radius:24px;padding:clamp(22px,3.4vw,44px);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.lm-form .lm-full{grid-column:1/-1}
+.lm-form label{display:grid;gap:7px;font-weight:600;font-size:.875rem;min-width:0}
+.lm-form input,.lm-form textarea,.lm-form select{width:100%;font:400 1rem var(--f-body);padding:.85em 1em;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink)}
+.lm-form textarea{min-height:120px;resize:vertical}
+.lm-form .lm-btn{justify-self:start}
+.lm-form-msg{grid-column:1/-1;font-size:.9375rem;color:var(--leaf);font-weight:500}
+@media (max-width:900px){.lm-contact{grid-template-columns:1fr}}
+@media (max-width:560px){.lm-form{grid-template-columns:1fr}}
+
+/* Footer */
+.lm-foot{background:var(--night);color:rgba(241,241,231,.7);padding-block:56px calc(40px + env(safe-area-inset-bottom,0px));font-size:.875rem;border-top:1px solid var(--line-d)}
+.lm-foot-in{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px}
+.lm-foot a{text-decoration:none}
+.lm-foot a:hover{text-decoration:underline}
+.lm-foot nav{display:flex;flex-wrap:wrap;gap:8px 22px}
+
+/* Mobile sticky CTA */
+.lm-sticky{display:none}
+@media (max-width:760px){
+  .lm-sticky{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:40;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:rgba(15,25,19,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transform:translateY(110%);transition:transform .4s}
+  .lm-sticky.is-on{transform:none}
+  .lm-sticky .lm-btn{flex:1;justify-content:center;padding:.95em 1em}
+  .lm-foot{padding-bottom:110px}
+}
+
+/* Concept notice + language toggle */
+.lm-concept{margin:0;background:rgba(8,13,10,.9);color:rgba(241,241,231,.8);font-size:.75rem;line-height:1.35;text-align:center;padding:6px var(--gutter)}
+.lm .lm-concept a{color:var(--bulb);text-decoration:underline;text-underline-offset:2px}
+.lm-nav-r{display:flex;gap:10px;align-items:center}
+.lm-lang{display:inline-flex;align-items:center;border:1px solid currentColor;border-radius:999px;padding:3px;gap:2px}
+.lm-lang button{font:600 .75rem/1 var(--f-body);letter-spacing:.04em;color:inherit;background:transparent;border:0;border-radius:999px;padding:0 .75em;min-width:40px;min-height:34px;cursor:pointer;transition:background-color .2s,color .2s}
+.lm-lang button[aria-pressed="true"]{background:var(--bulb);color:var(--night)}
+.lm-lang button:focus-visible{outline:2px solid var(--bulb);outline-offset:2px}
+
+/* Phone pass */
+@media (max-width:760px){
+  .lm-nav-in{height:62px;gap:10px}
+  .lm-mark{gap:9px}
+  .lm-mark svg{width:24px;height:24px}
+  .lm-mark b{font-size:1.25rem}
+  .lm-mark small{font-size:.625rem;letter-spacing:.04em}
+  .lm-concept{font-size:.6875rem;padding-block:5px}
+  .lm-menu-btn{padding:.6em .85em;min-height:40px}
+  .lm-hero{min-height:0;padding-bottom:8px}
+  .lm-hero-cta .lm-btn{flex:1 1 100%;justify-content:center}
+  .lm-band{padding-block:68px}
+  .lm-sec-head{margin-bottom:30px}
+  .lm-seg label{min-height:46px;min-width:58px}
+  .lm-seg-wide label{flex:1 1 100%}
+  .lm-qa>div{padding-block:26px}
+  .lm-space-txt{padding:22px}
+  .lm-quote{padding:24px}
+  .lm-faq summary{padding:20px 0}
+  .lm-form{padding:20px}
+  .lm-est-total{margin-block:10px 4px}
+  .lm-contact-info b{font-size:1.1875rem;overflow-wrap:anywhere}
+}
+@media (max-width:400px){.lm-mark small{display:none}.lm-lang button{min-width:36px;padding:0 .6em}}
+@media (prefers-reduced-motion:reduce){
+  .lm *,.lm *::before,.lm *::after{transition-duration:.01ms!important;animation:none!important}
+  .lm-track{flex-wrap:wrap;width:auto}
+}
+</style>
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+
+<div class="lm" id="top">
+<a class="lm-skip" href="#lm-main">Skip to content</a>
+
+<!-- ===== SECTION: nav ===== -->
+<header class="lm-nav" id="lm-nav">
+  <p class="lm-concept" data-i18n="concept">Redesign concept for La Mariposa Resort. Not the official site: visit <a href="https://lamariposaresort.com/" target="_blank" rel="noopener">lamariposaresort.com</a></p>
+  <div class="lm-nav-in">
+    <a class="lm-mark" href="#top" aria-label="La Mariposa Resort home">
+      <svg viewBox="0 0 22 24" aria-hidden="true"><path d="M8.5 15.0 L8.3 13.6 L9.0 10.5 L10.9 6.9 L13.6 4.2 L16.3 3.2 L17.8 4.2 L17.6 6.3 L15.8 8.8 L13.3 10.7 L11.3 11.7 L10.7 12.1 L11.8 12.6 L14.2 13.8 L16.6 16.0 L17.9 18.5 L17.5 20.4 L15.5 20.7 L12.7 19.1 L10.1 15.9 L8.6 12.4 L8.3 9.7 L8.7 9.0 L8.9 10.2 L8.2 12.8 L6.6 15.6 L4.6 17.3 L3.2 17.4 L3.3 16.0 L5.1 13.9 L8.1 12.2 L11.2 11.4 L13.2 11.7 L13.2 12.3 L11.2 12.6 L8.1 11.8 L5.1 10.1 L3.3 8.0 L3.2 6.6 L4.6 6.7 L6.6 8.4 L8.2 11.2 L8.9 13.8 L8.7 15.0 L8.3 14.2 L8.6 11.6 L10.1 8.0 L12.7 4.9 L15.5 3.3 L17.5 3.6 L17.9 5.5 L16.6 8.0 L14.2 10.1 L11.9 11.4 L10.8 12.0 L11.4 12.4 L13.4 13.3 L15.9 15.2 L17.7 17.7 L17.9 20.0 L16.4 20.9 L13.7 20.0 L11.0 17.3 L9.0 13.8 L8.3 10.7 L8.5 9.2 L8.8 9.9 L8.5 12.2 L7.1 15.0 L5.1 17.2 L3.3 17.8 L2.8 16.8 L3.9 14.8 L6.6 12.8 L9.8 11.7 L12.2 11.6 L12.9 12.1 L11.5 12.5 L8.6 12.0 L5.4 10.5 L3.1 8.3 L2.5 6.5 L3.6 5.9 L5.6 7.0 L7.5 9.5 L8.5 12.2 L8.7 13.9 L8.4 13.8 L8.6 11.7 L9.8 8.3 L12.2 4.9 L15.2 2.7 L17.8 2.5 L18.9 4.0 L18.3 6.6 L16.3 9.1 L13.9 10.8 L12.3 11.7 L12.4 12.3 L14.0 13.2 L16.5 15.0 L18.6 17.6 L19.3 20.3 L18.2 21.9 L15.6 21.8 L12.6 19.8 L10.1 16.6 L8.8 13.3 L8.5 11.3 L8.6 11.2 L8.3 13.0 L7.0 15.8 L4.8 18.2 L2.7 19.3 L1.4 18.6 L1.8 16.7 L3.8 14.3 L6.8 12.5 L9.6 11.8 L10.9 11.9 L10.2 12.2 L7.7 11.8 L4.6 10.3 L2.0 8.0 L1.0 5.7 L1.8 4.4 L3.8 4.8 L6.1 6.7 L7.7 9.4 L8.4 11.6 L8.5 12.1 L8.7 10.7 L9.8 7.7 L12.1 4.2 L15.2 1.7 L18.3 1.0 L20.1 2.2 L20.2 4.8 L18.6 7.6 L16.2 9.9 L14.3 11.3 L13.7 12.1 L14.8 13.1 L17.0 14.8 L19.3 17.3 L20.4 20.2 L19.7 22.4 L17.3 23.0 L14.2 21.6 L11.2 18.7 L9.3 15.2 L8.6 12.6 L8.5 11.8 L8.3 13.0 L7.3 15.5 L5.3 18.1 L3.0 19.6 L1.3 19.4 L1.1 17.6 L2.7 15.2 L5.6 13.1 L8.7 12.0 L10.6 11.9 L10.7 12.2 L8.8 12.1 L5.8 11.0 L3.0 8.9 L1.4 6.6 L1.6 5.0 L3.3 4.9 L5.6 6.5 L7.5 9.2 L8.5 11.7 L8.6 13.0 L8.5 12.3 L9.1 9.7 L10.8 6.3 L13.6 3.4 L16.6 1.9 L18.8 2.5 L19.3 4.6 L18.0 7.3 L15.7 9.7 L13.4 11.2 L12.2 11.9 L12.7 12.5 L14.7 13.7 L17.0 15.7 L18.7 18.3 L18.8 20.7 L17.1 21.7 L14.2 20.8 L11.3 18.1 L9.3 14.5 L8.4 11.4 L8.5 9.9 L8.7 10.5 L8.3 12.7 L6.9 15.5 L4.9 17.6 L3.1 18.1 L2.5 17.0 L3.7 15.0 L6.4 12.9 L9.7 11.7 L12.1 11.6 L12.9 12.1 L11.5 12.5 L8.7 12.1 L5.6 10.6 L3.4 8.5 L2.8 6.7 L3.8 6.2 L5.8 7.4 L7.7 9.9 L8.7 12.8 L8.8 14.6 L8.4 14.5 L8.4 12.4 L9.5 9.1 L11.8 5.7 L14.7 3.5 L17.1 3.2 L18.1 4.7 L17.3 7.1 L15.1 9.5 L12.6 11.1 L11.0 11.8 L11.0 12.2 L12.6 12.9 L15.1 14.5 L17.2 16.9 L18.0 19.3 L17.0 20.7 L14.6 20.4 L11.8 18.2 L9.5 14.8 L8.4 11.4 L8.4 9.3 L8.8 9.2 L8.8 11.0 L7.8 13.8 L6.0 16.3 L4.1 17.5 L3.1 17.1 L3.7 15.3 L6.0 13.3 L9.2 11.8 L12.0 11.4 L13.4 11.9 L12.7 12.5 L10.2 12.5 L7.0 11.3 L4.3 9.4 L3.1 7.4 L3.6 6.5 L5.3 7.1 L7.2 9.3 L8.5 12.1 L8.9 14.4 L8.5 15.0Z"/></svg>
+      <span><b>La Mariposa</b><small data-i18n="markSub">Weddings &amp; Special Events</small></span>
+    </a>
+    <ul class="lm-links" id="lm-links">
+      <li><a href="#spaces" data-i18n="navEstate">The estate</a></li>
+      <li><a href="#day" data-i18n="navDay">A day here</a></li>
+      <li><a href="#pricing" data-i18n="navPrice">Pricing</a></li>
+      <li><a href="#menus" data-i18n="navMenus">Menus</a></li>
+      <li><a href="#reviews" data-i18n="navReviews">Reviews</a></li>
+      <li><a href="#faq" data-i18n="navFaq">FAQ</a></li>
+    </ul>
+    <div class="lm-nav-r">
+      <div class="lm-lang" role="group" aria-label="Language / Idioma"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="es" aria-pressed="false">ES</button></div>
+      <a class="lm-btn lm-btn-ghost lm-nav-cta" href="#tour" data-magnetic data-i18n="navCta">Book a tour</a>
+      <button class="lm-menu-btn" id="lm-menu-btn" aria-expanded="false" aria-controls="lm-links" data-i18n="menuBtn">Menu</button>
+    </div>
+  </div>
+</header>
+
+<main id="lm-main">
+<!-- ===== SECTION: hero ===== -->
+<section class="lm-hero" id="hero" aria-labelledby="lm-h1">
+  <div class="lm-hero-bg"><img src="img/hero.jpg" srcset="img/hero-m.jpg 900w, img/hero.jpg 1800w" sizes="100vw" alt="Wedding aisle lined with white flowers and gold chairs on the green lawn at La Mariposa, under old mesquite trees" fetchpriority="high"></div>
+  <canvas id="lm-gl" aria-hidden="true"></canvas>
+  <div class="lm-hero-in">
+    <p class="lm-kicker" data-i18n="kicker">A garden estate for weddings and celebrations in Tucson</p>
+    <h1 id="lm-h1"><span class="lm-line"><span data-i18n="h1a">Marry beneath</span></span><span class="lm-line"><span data-i18n="h1b">the mesquites.</span></span></h1>
+    <p class="lm-hero-sub" data-i18n="heroSub">Green lawns, a gazebo by the pond and the Santa Catalina Mountains behind your vows. Catering, bar, DJ and your event manager are all in-house, so planning feels like one conversation instead of eight.</p>
+    <div class="lm-hero-cta">
+      <a class="lm-btn lm-btn-gold" href="#tour" data-magnetic data-i18n="heroCta1">Book a private tour</a>
+      <a class="lm-btn lm-btn-ghost" href="#pricing" data-i18n="heroCta2">See your date's price</a>
+    </div>
+    <div class="lm-proof" id="lm-proof">
+      <div><strong><span data-count="4.8" data-dec="1">4.8</span></strong><span data-i18n="p1">WeddingWire rating from 141 couples</span></div>
+      <div><strong><span data-count="96">96</span>%</strong><span data-i18n="p2">of couples recommend La Mariposa</span></div>
+      <div><strong><span data-count="7">7</span>×</strong><span data-i18n="p3">WeddingWire Couples' Choice winner</span></div>
+      <div><strong><span data-count="4.7" data-dec="1">4.7</span></strong><span data-i18n="p4">Google rating from 182 reviews</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION: why ===== -->
+<section class="lm-band" id="why" aria-labelledby="lm-why-h">
+  <div class="lm-wrap lm-why-grid">
+    <h2 id="lm-why-h" data-i18n="whyH">You've toured the desert venues. <span class="lm-it">Did any of them feel like an oasis?</span></h2>
+    <div class="lm-qa">
+      <div>
+        <h3 data-i18n="q1">What if July heat or a monsoon storm shows up?</h3>
+        <p data-i18n="a1">You move inside without losing the view. <b>The Starlight Room</b> has a skylight over the dance floor and windows onto the garden, and it comes with every package. Couples who've had rain on the day say the switch was seamless.</p>
+      </div>
+      <div>
+        <h3 data-i18n="q2">What is this actually going to cost?</h3>
+        <p data-i18n="a2">Site fees are published, day by day, <b>starting at $1,100</b>. Pick your date and guest count below and you'll see a real number before you ever pick up the phone.</p>
+      </div>
+      <div>
+        <h3 data-i18n="q3">How many vendors am I going to juggle?</h3>
+        <p data-i18n="a3">Food, bar, linens, gold Chiavari chairs, a house DJ and your event manager come from <b>one team</b>. Add flowers and a cake from preferred vendors who already know the property.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION: spaces ===== -->
+<section class="lm-band lm-paper" id="spaces" aria-labelledby="lm-sp-h">
+  <div class="lm-wrap">
+    <div class="lm-sec-head">
+      <h2 id="lm-sp-h" data-i18n="spH">One estate, <span class="lm-it">four ways to celebrate.</span></h2>
+      <p class="lm-lede" data-i18n="spLede">Every package includes the garden lawn, the Starlight Room, the bridal suite and the groom's room for your whole event.</p>
+    </div>
+    <div class="lm-spaces">
+      <article class="lm-space" data-tilt>
+        <img src="img/lawn.jpg" srcset="img/lawn-m.jpg 800w, img/lawn.jpg 1400w" sizes="(max-width:860px) 100vw, 58vw" alt="White ceremony chairs on the lawn facing the gazebo, framed by mesquite trees and the Catalina Mountains" loading="lazy">
+        <span class="lm-glare"></span>
+        <div class="lm-space-txt">
+          <h3 data-i18n="s1h">The garden lawn and gazebo</h3>
+          <p data-i18n="s1p">Cascading mesquite trees frame the gazebo. White padded ceremony chairs are set on the lawn, and the mountains handle the backdrop.</p>
+          <span class="lm-tag" data-i18n="s1t">Includes a 1-hour courtesy rehearsal</span>
+        </div>
+      </article>
+      <article class="lm-space" data-tilt>
+        <img src="img/starlight.jpg" alt="The Starlight Room with draped ceiling, skylight and an open dance floor" loading="lazy">
+        <span class="lm-glare"></span>
+        <div class="lm-space-txt">
+          <h3 data-i18n="s2h">The Starlight Room</h3>
+          <p data-i18n="s2p">Gold Chiavari chairs, 60-inch rounds for ten, mirrors, white china and glassware, with dancing under the skylight.</p>
+          <span class="lm-tag" data-i18n="s2t">4 hours of courtesy setup time</span>
+        </div>
+      </article>
+      <article class="lm-space" data-tilt>
+        <img src="img/pond.jpg" srcset="img/pond-m.jpg 600w, img/pond.jpg 900w" sizes="(max-width:860px) 100vw, 42vw" alt="Couple standing by the pond at golden hour with their reflection in the water" loading="lazy">
+        <span class="lm-glare"></span>
+        <div class="lm-space-txt">
+          <h3 data-i18n="s3h">The pond and patios</h3>
+          <p data-i18n="s3p">Golden-hour portraits at the water, a raised fire pit with seating, and white lights strung above both patios.</p>
+        </div>
+      </article>
+      <article class="lm-space lm-space-plain" data-tilt>
+        <span class="lm-glare"></span>
+        <div class="lm-space-txt">
+          <h3 data-i18n="s4h">The bridal suite and groom's room</h3>
+          <p data-i18n="s4p">Two private spaces to get ready, so nobody sees anybody too early.</p>
+          <ul class="lm-suite-list">
+            <li data-i18n="s4l1">7-foot three-way mirror and a makeup table with mirror</li>
+            <li data-i18n="s4l2">Full bathroom and a private patio with table and chairs</li>
+            <li data-i18n="s4l3">Groom's room with patio access and a big-screen TV with sports channels</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION: day story ===== -->
+<section class="lm-band lm-dark" id="day" aria-labelledby="lm-day-h">
+  <div class="lm-wrap">
+    <h2 id="lm-day-h" data-i18n="dayH">One day at <span class="lm-it">La Mariposa.</span></h2>
+    <div class="lm-story-grid">
+      <div class="lm-stage" aria-hidden="true">
+        <figure class="is-on"><img src="img/arrive.jpg" alt=""></figure>
+        <figure><img src="img/ceremony.jpg" alt=""></figure>
+        <figure><img src="img/pond.jpg" alt=""></figure>
+        <figure><img src="img/thrones.jpg" alt=""></figure>
+        <div class="lm-stage-count"><i class="is-on"></i><i></i><i></i><i></i></div>
+      </div>
+      <div class="lm-chapters">
+        <article class="lm-ch is-on">
+          <img class="lm-ch-img" src="img/arrive-m.jpg" alt="Ceremony chairs on the lawn under mesquite trees, with the Starlight Room in the distance" loading="lazy">
+          <p class="lm-ch-time" data-i18n="c1t">Arrival</p>
+          <h3 data-i18n="c1h">Guests step into the shade of the mesquites.</h3>
+          <p data-i18n="c1p">Lush lawn, mature trees and the Catalinas on the horizon. Guests keep saying the same thing: they can't believe this is Tucson.</p>
+        </article>
+        <article class="lm-ch">
+          <img class="lm-ch-img" src="img/ceremony-m.jpg" alt="Couple exchanging vows at the flower-covered gazebo" loading="lazy">
+          <p class="lm-ch-time" data-i18n="c2t">The ceremony</p>
+          <h3 data-i18n="c2h">Vows at the gazebo, mountains behind you.</h3>
+          <p data-i18n="c2p">White padded garden chairs, a flower-lined aisle and a courtesy rehearsal beforehand so everyone knows their mark.</p>
+        </article>
+        <article class="lm-ch">
+          <img class="lm-ch-img" src="img/pond-m.jpg" alt="Couple at the pond with reflections in the water" loading="lazy">
+          <p class="lm-ch-time" data-i18n="c3t">Golden hour</p>
+          <h3 data-i18n="c3h">Portraits at the pond. Appetizers by the fire pit.</h3>
+          <p data-i18n="c3p">While you get the photos your photographer has been waiting for, guests gather on the patios under strung white lights.</p>
+        </article>
+        <article class="lm-ch">
+          <img class="lm-ch-img" src="img/thrones-m.jpg" alt="The Starlight Room set for a reception with a floral sweetheart table and crystal chandelier" loading="lazy">
+          <p class="lm-ch-time" data-i18n="c4t">The reception</p>
+          <h3 data-i18n="c4h">Dinner in the Starlight Room, then dancing under the skylight.</h3>
+          <p data-i18n="c4p">Food from the La Mariposa kitchen, a bar run by our team, and House DJ John keeping the dance floor full.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION: pricing ===== -->
+<section class="lm-band" id="pricing" aria-labelledby="lm-pr-h">
+  <div class="lm-wrap">
+    <div class="lm-sec-head">
+      <h2 id="lm-pr-h" data-i18n="prH">Real prices, <span class="lm-it">right now.</span></h2>
+      <p class="lm-lede" data-i18n="prLede">Most venues make you call for a number. Choose your day, package, guest count and menu, and see La Mariposa's published pricing instantly.</p>
+    </div>
+    <div class="lm-price">
+      <form class="lm-panel" id="lm-calc" onsubmit="return false">
+        <fieldset class="lm-field">
+          <legend data-i18n="lgDay">Day of the week</legend>
+          <div class="lm-seg" id="lm-days"></div>
+          <p class="lm-note" data-i18n="noteTue">Tuesday dates are by request. Seasonal discounts can apply on select winter and summer dates.</p>
+        </fieldset>
+        <fieldset class="lm-field">
+          <legend data-i18n="lgPkg">Package</legend>
+          <div class="lm-seg lm-seg-wide">
+            <input type="radio" name="pkg" id="pkg-c" value="ceremony" checked><label for="pkg-c" data-i18n="pkgC">Ceremony and reception<small>5 hours of event time</small></label>
+            <input type="radio" name="pkg" id="pkg-r" value="reception"><label for="pkg-r" data-i18n="pkgR">Reception only<small>4 hours of event time</small></label>
+          </div>
+        </fieldset>
+        <div class="lm-field">
+          <label class="lm-label" for="lm-guests" data-i18n="lbGuests">Adult guests</label>
+          <div class="lm-range-row">
+            <input type="range" id="lm-guests" min="20" max="300" step="5" value="120">
+            <output id="lm-guests-out" for="lm-guests">120</output>
+          </div>
+        </div>
+        <div class="lm-field">
+          <label class="lm-label" for="lm-menu" data-i18n="lbMenu">Dinner menu</label>
+          <select id="lm-menu"></select>
+          <p class="lm-note" data-i18n="noteKids">Kids 3 to 12 get a plated meal for $20. Under 2 eat free.</p>
+        </div>
+      </form>
+      <aside class="lm-panel lm-est" aria-live="polite">
+        <p class="lm-est-day" id="lm-est-day">Friday, ceremony and reception</p>
+        <p class="lm-est-total" id="lm-est-total">$7,380</p>
+        <p class="lm-note" data-i18n="noteEst">Estimated site fee plus dinner, before tax and the 20% service charge on food and bar.</p>
+        <dl>
+          <dt data-i18n="dtFee">Site fee</dt><dd id="lm-est-fee">$2,700</dd>
+          <dt id="lm-est-menu-l">Dinner, 120 × $39</dt><dd id="lm-est-menu">$4,680</dd>
+          <dt data-i18n="dtTime">Event time</dt><dd id="lm-est-hours">5 hours</dd>
+        </dl>
+        <p class="lm-warn" id="lm-warn" hidden></p>
+        <div class="lm-est-spacer"></div>
+        <a class="lm-btn lm-btn-gold" href="#tour" id="lm-est-send" data-magnetic data-i18n="estSend">Hold this estimate and book a tour</a>
+      </aside>
+    </div>
+    <div class="lm-incl">
+      <div data-i18n="inc1"><b>Gold Chiavari chairs</b>Padded cushions, plus white padded chairs for the ceremony.</div>
+      <div data-i18n="inc2"><b>Linens and tableware</b>Your choice of table linens and napkins, white china, glassware and flatware.</div>
+      <div data-i18n="inc3"><b>All four spaces</b>Garden lawn, Starlight Room, bridal suite and groom's room.</div>
+      <div data-i18n="inc4"><b>Extra time if you need it</b>Additional event time is $500 per hour. Tents and specialty linens are quoted separately.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION: menus ===== -->
+<section class="lm-band lm-paper" id="menus" aria-labelledby="lm-mn-h">
+  <div class="lm-wrap">
+    <div class="lm-sec-head">
+      <h2 id="lm-mn-h" data-i18n="mnH">Cooked here. <span class="lm-it">Served by our team.</span></h2>
+      <p class="lm-lede" data-i18n="mnLede">Every plate comes from the La Mariposa kitchen. The South of the Border buffet is the one couples mention most in their reviews.</p>
+    </div>
+    <div class="lm-menus">
+      <div class="lm-menu"><div class="lm-menu-top"><h3>South of the Border</h3><b>$39<small>/guest</small></b></div><ul><li data-i18n="ml1">Carne asada or chicken tacos, enchiladas, fajitas</li><li data-i18n="ml2">Chile relleno with salsa verde</li><li data-i18n="ml3">Rice, beans, fresh chips and salsa</li></ul></div>
+      <div class="lm-menu"><div class="lm-menu-top"><h3 data-i18n="m2">Create Your Own</h3><b>$42–48<small>/guest</small></b></div><ul><li data-i18n="ml4">Carved prime rib with horseradish and au jus</li><li data-i18n="ml5">Baked salmon with dill sauce or tropical salsa</li><li data-i18n="ml6">Mesquite-grilled top sirloin</li></ul></div>
+      <div class="lm-menu"><div class="lm-menu-top"><h3 data-i18n="m3">Southwestern Cookout</h3><b>$42<small>/guest</small></b></div><ul><li data-i18n="ml7">Mesquite-grilled sirloin, honey bourbon chicken</li><li data-i18n="ml8">Flank steak with honey jalapeño sauce</li><li data-i18n="ml9">Ranch beans or fiesta corn, cornbread</li></ul></div>
+      <div class="lm-menu"><div class="lm-menu-top"><h3 data-i18n="m4">Italian</h3><b>$39<small>/guest</small></b></div><ul><li data-i18n="ml10">Chicken parmesan, marsala or piccata</li><li data-i18n="ml11">Meat or vegetarian lasagna, eggplant parmesan</li><li data-i18n="ml12">Garlic bread with salad and vegetable</li></ul></div>
+      <div class="lm-menu"><div class="lm-menu-top"><h3 data-i18n="m5">Midday Delight brunch</h3><b>$34<small>/guest</small></b></div><ul><li data-i18n="ml13">Scrambled eggs or spinach-cheddar frittata</li><li data-i18n="ml14">Danish pastries, bagels, two salads</li><li data-i18n="ml15">Served until 1 p.m.</li></ul></div>
+      <div class="lm-menu"><div class="lm-menu-top"><h3 data-i18n="m6">Sunrise Breakfast</h3><b>$28<small>/guest</small></b></div><ul><li data-i18n="ml16">Plated or buffet style</li><li data-i18n="ml17">Eggs with homemade salsa, bacon or sausage</li><li data-i18n="ml18">Fruit or yogurt parfait, breads and bagels</li></ul></div>
+    </div>
+    <div class="lm-late">
+      <h3 data-i18n="lateH">Late-night snacks</h3>
+      <span data-i18n="late1"><b>S'mores bar</b> at no charge</span>
+      <span data-i18n="late2"><b>Sonoran dog food truck</b> $9 each</span>
+      <span data-i18n="late3"><b>Tater tot bar</b> with chili and cheese, $7 each</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION: reviews ===== -->
+<section class="lm-band lm-moss" id="reviews" aria-labelledby="lm-rv-h">
+  <div class="lm-wrap">
+    <div class="lm-sec-head">
+      <h2 id="lm-rv-h" data-i18n="rvH">4.8 stars from <span class="lm-it">141 couples.</span></h2>
+      <p class="lm-lede" data-i18n="rvLede">Family-owned and run by Steve and Francesca Brennan. Read every review on <a href="https://www.weddingwire.com/reviews/la-mariposa-resort-weddings-special-events-tucson/dfce76953fa1b94d.html" target="_blank" rel="noopener">WeddingWire</a>, <a href="https://www.theknot.com/marketplace/la-mariposa-resort-tucson-az-542781" target="_blank" rel="noopener">The Knot</a> and Google.</p>
+    </div>
+  </div>
+  <div class="lm-marquee" aria-label="Couple reviews">
+    <div class="lm-track" id="lm-track">
+      <figure class="lm-quote"><blockquote>“We were sold by the 100+ year old mesquite trees.”</blockquote><figcaption data-i18n="cap1"><b>Devon</b>, WeddingWire, March 2024</figcaption></figure>
+      <figure class="lm-quote"><blockquote>“No one could believe this venue is in Tucson.”</blockquote><figcaption data-i18n="cap2"><b>Max S.</b>, WeddingWire, February 2023</figcaption></figure>
+      <figure class="lm-quote"><blockquote>“Made the day of stress-free for me (the bride!)”</blockquote><figcaption data-i18n="cap3"><b>Reyna</b>, WeddingWire, June 2024</figcaption></figure>
+      <figure class="lm-quote"><blockquote>“These people are pros....with hearts.”</blockquote><figcaption data-i18n="cap4"><b>Amy E.</b>, WeddingWire, June 2024</figcaption></figure>
+      <figure class="lm-quote"><blockquote>“Incredible staff, beautiful venue, and amazing experience for couples, guests, and vendors!”</blockquote><figcaption data-i18n="cap5"><b>Craig</b>, wedding photographer, WeddingWire, June 2026</figcaption></figure>
+    </div>
+  </div>
+  <div class="lm-wrap">
+    <div class="lm-team">
+      <div><h3>Steve Brennan</h3><p data-i18n="tm1">Owner and General Manager</p><span class="lm-ph">(520) 250-6070</span></div>
+      <div><h3>Amanda Szymczyk</h3><p data-i18n="tm2">Event Manager, your planning partner from tour to last dance</p><span class="lm-ph">(520) 633-7891</span></div>
+      <div><h3>DJ John</h3><p data-i18n="tm3">La Mariposa's house DJ for more than two decades, and a frequent officiant</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION: gallery ===== -->
+<section class="lm-band lm-gal-sec" id="gallery" aria-labelledby="lm-gl-h">
+  <div class="lm-wrap">
+    <div class="lm-sec-head">
+      <h2 id="lm-gl-h" data-i18n="glH">See it for <span class="lm-it">yourself.</span></h2>
+      <p class="lm-lede" data-i18n="glLede">Swipe or drag through real weddings at La Mariposa, and tap any photo to see it full size.</p>
+    </div>
+  </div>
+  <div class="lm-ring-stage" id="lm-stage-ring">
+    <div class="lm-ring" id="lm-ring">
+      <button type="button" class="lm-ring-item" style="--i:0"><img src="img/gazebo-v-m.jpg" alt="The wedding gazebo under blue sky and mesquite branches" loading="lazy"></button>
+      <button type="button" class="lm-ring-item" style="--i:1"><img src="img/vows-m.jpg" alt="Couple exchanging vows inside the draped gazebo" loading="lazy"></button>
+      <button type="button" class="lm-ring-item" style="--i:2"><img src="img/firstdance.jpg" alt="First dance in the Starlight Room" loading="lazy"></button>
+      <button type="button" class="lm-ring-item" style="--i:3"><img src="img/party.jpg" alt="Bridal party in sage dresses celebrating on the lawn" loading="lazy"></button>
+      <button type="button" class="lm-ring-item" style="--i:4"><img src="img/aisle-v-m.jpg" alt="Guests seated along a flower-lined aisle on the lawn" loading="lazy"></button>
+      <button type="button" class="lm-ring-item" style="--i:5"><img src="img/lights.jpg" alt="Guests dancing beneath strung lights" loading="lazy"></button>
+      <button type="button" class="lm-ring-item" style="--i:6"><img src="img/tables.jpg" alt="Reception tables with gold Chiavari chairs in the Starlight Room" loading="lazy"></button>
+      <button type="button" class="lm-ring-item" style="--i:7"><img src="img/tent.jpg" alt="Tented reception on the lawn with white chairs and pink florals" loading="lazy"></button>
+      <button type="button" class="lm-ring-item" style="--i:8"><img src="img/gazebo-new.jpg" alt="Petal-lined aisle leading to the gazebo" loading="lazy"></button>
+    </div>
+    <div class="lm-ring-floor"></div>
+  </div>
+  <p class="lm-ring-hint" data-i18n="glHint">Drag to spin</p>
+  <div class="lm-wrap">
+    <p class="lm-credit" data-i18n="glCredit">Photography by Steven Palm Photography and Neal Kreuser Photography, both La Mariposa preferred vendors.</p>
+  </div>
+  <dialog class="lm-dlg" id="lm-dlg"><button type="button" id="lm-dlg-x" data-i18n="close">Close</button><img id="lm-dlg-img" alt=""><p id="lm-dlg-cap"></p></dialog>
+</section>
+
+<!-- ===== SECTION: faq ===== -->
+<section class="lm-band lm-paper" id="faq" aria-labelledby="lm-fq-h">
+  <div class="lm-wrap">
+    <div class="lm-sec-head"><h2 id="lm-fq-h" data-i18n="fqH">Good to know <span class="lm-it">before you book.</span></h2></div>
+    <div class="lm-faq">
+      <details><summary data-i18n="fq1">Can we bring our own caterer, cake or alcohol?</summary><p data-i18n="fa1">La Mariposa is a licensed facility, so all food comes from our kitchen and all alcohol is served by our bar team. The one exception is dessert: you can bring a cake from a licensed bakery, with a $4 per person fee for outside desserts.</p></details>
+      <details><summary data-i18n="fq2">Is there a guest minimum?</summary><p data-i18n="fa2">Saturday events need at least 100 adult guests. Friday and Sunday events need at least 75. Weekday events have no published minimum.</p></details>
+      <details><summary data-i18n="fq3">How does the deposit work?</summary><p data-i18n="fa3">A 25% non-refundable deposit reserves your date. A second 25% is due three months after booking. Both are applied to your final balance, and your event agreement lists every date and term.</p></details>
+      <details><summary data-i18n="fq4">What hours can we use the venue?</summary><p data-i18n="fa4">Events run between 10 a.m. and 1 a.m. Ceremony and reception packages include 5 hours, reception-only packages include 4, and the Starlight Room opens 4 hours early for setup. Extra time is $500 per hour.</p></details>
+      <details><summary data-i18n="fq5">Are there any decor rules?</summary><p data-i18n="fa5">We don't supply centerpieces, and we're happy to refer a florist. Outdoors, skip rice and artificial petals; bubbles and birdseed are welcome. No glitter or confetti on tables.</p></details>
+      <details><summary data-i18n="fq6">Do you host events other than weddings?</summary><p data-i18n="fa6">Yes. Quinceañeras, bar mitzvahs, anniversaries, memorial receptions, small business meetings and large corporate functions all fit the estate.</p></details>
+      <details><summary data-i18n="fq7">How do guests find you?</summary><p data-i18n="fa7">We're at 1501 N. Houghton Rd., Tucson, AZ 85749. The property can only be reached from N Houghton Rd., so put that on your invitations.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECTION: contact ===== -->
+<section class="lm-band lm-dark" id="tour" aria-labelledby="lm-ct-h">
+  <div class="lm-wrap lm-contact">
+    <div>
+      <h2 id="lm-ct-h" data-i18n="ctH">See it at <span class="lm-it">golden hour.</span></h2>
+      <p class="lm-lede" style="margin-top:22px" data-i18n="ctLede">A tour is the fastest way to know. Tell us your date and Amanda will set up a time to walk the estate with you.</p>
+      <div class="lm-contact-info">
+        <div><span data-i18n="ci1">Events team</span><b>(520) 633-7891</b></div>
+        <div><span data-i18n="ci2">Main line</span><b>(520) 749-1099</b></div>
+        <div><span data-i18n="ci3">Email</span><b>weddings@lamariposaresort.com</b></div>
+        <div><span data-i18n="ci4">Visit</span><b>1501 N. Houghton Rd., Tucson, AZ 85749</b></div>
+      </div>
+    </div>
+    <!-- Live site: connect this form to the CRM or booking calendar -->
+    <form class="lm-form" id="lm-form" novalidate>
+      <label><span data-i18n="f1">First name</span><input id="f-first" name="first" autocomplete="given-name" required></label>
+      <label><span data-i18n="f2">Last name</span><input id="f-last" name="last" autocomplete="family-name" required></label>
+      <label><span data-i18n="f3">Email</span><input id="f-email" name="email" type="email" autocomplete="email" required></label>
+      <label><span data-i18n="f4">Phone</span><input id="f-phone" name="phone" type="tel" autocomplete="tel" required></label>
+      <label><span data-i18n="f5">Event date</span><input id="f-date" name="date" type="date"></label>
+      <label><span data-i18n="f6">Estimated guests</span><input id="f-guests" name="guests" type="number" min="1" inputmode="numeric"></label>
+      <label class="lm-full"><span data-i18n="f7">Type of event</span><select id="f-type" name="type"><option data-i18n="o1">Wedding</option><option>Quinceañera</option><option data-i18n="o3">Corporate event</option><option data-i18n="o4">Anniversary or celebration</option><option data-i18n="o5">Other</option></select></label>
+      <label class="lm-full"><span data-i18n="f8">Anything we should know?</span><textarea id="f-msg" name="message"></textarea></label>
+      <button class="lm-btn lm-btn-ink" type="submit" data-i18n="fSubmit">Request my tour</button>
+      <p class="lm-form-msg" id="lm-form-msg" role="status" hidden></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<!-- ===== SECTION: footer ===== -->
+<footer class="lm-foot">
+  <div class="lm-wrap lm-foot-in">
+    <p>© 2026 La Mariposa Resort LLC. 1501 N. Houghton Rd., Tucson, AZ 85749</p>
+    <nav aria-label="Footer">
+      <a href="https://lamariposaresort.com/la-mariposas-preferred-vendors/" target="_blank" rel="noopener" data-i18n="ftVend">Preferred vendors</a>
+      <a href="https://www.lamariposafitnessandsports.com/" target="_blank" rel="noopener">La Mariposa Fitness &amp; Sports</a>
+      <a href="https://www.facebook.com/Lamariposaresort" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/explore/locations/325016242/la-mariposa-resort/" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+  </div>
+</footer>
+
+<div class="lm-sticky" id="lm-sticky">
+  <a class="lm-btn lm-btn-gold" href="#tour" data-i18n="stTour">Book a tour</a>
+  <a class="lm-btn lm-btn-ghost" href="#pricing" data-i18n="stPrice">Pricing</a>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+
+<!-- 3D hero: La Mariposa's butterfly, drawn in string-light particles -->
+<script type="module">
+import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js";
+const canvas = document.getElementById("lm-gl");
+const hero = document.getElementById("hero");
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+let renderer;
+try { renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: false, powerPreference: "high-performance" }); }
+catch (e) { canvas.remove(); }
+if (renderer) {
+  const small = innerWidth < 760;
+  const N = small ? 6500 : 15000;
+  renderer.setPixelRatio(Math.min(devicePixelRatio || 1, small ? 1.5 : 2));
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(42, 1, 0.1, 100);
+  camera.position.set(0, 0, 9);
+
+  // Butterfly curve (Temple Fay): r = e^cos t - 2cos 4t - sin^5(t/12)
+  const bf = (t) => { const r = Math.exp(Math.cos(t)) - 2 * Math.cos(4 * t) - Math.pow(Math.sin(t / 12), 5); return [Math.sin(t) * r, Math.cos(t) * r - 0.66]; };
+  const target = new Float32Array(N * 3), scatter = new Float32Array(N * 3), seed = new Float32Array(N * 4);
+  for (let i = 0; i < N; i++) {
+    const t = Math.random() * Math.PI * 12;
+    const [x, y] = bf(t);
+    const edge = Math.random() < 0.42;
+    const k = edge ? 0.96 + Math.random() * 0.06 : 0.12 + Math.sqrt(Math.random()) * 0.84;
+    let px = x * k * 0.52, py = y * k * 0.52;
+    if (Math.random() < 0.012) { px = (Math.random() - 0.5) * 0.05; py = -0.75 + Math.random() * 1.5; } // body
+    target.set([px, py, (Math.random() - 0.5) * 0.12 + Math.pow(Math.abs(px), 1.4) * 0.12], i * 3);
+    scatter.set([(Math.random() - 0.5) * 22, (Math.random() - 0.5) * 12, -7 + Math.random() * 9], i * 3);
+    seed.set([Math.random(), Math.random(), Math.random(), edge ? 1 : 0], i * 4);
+  }
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute("position", new THREE.BufferAttribute(target, 3));
+  geo.setAttribute("aScatter", new THREE.BufferAttribute(scatter, 3));
+  geo.setAttribute("aSeed", new THREE.BufferAttribute(seed, 4));
+  const uniforms = {
+    uTime: { value: 0 }, uAssemble: { value: reduce ? 1 : 0 }, uDisperse: { value: 0 },
+    uMouse: { value: new THREE.Vector2(99, 99) }, uPR: { value: renderer.getPixelRatio() },
+    uSize: { value: small ? 58 : 62 }, uFlap: { value: reduce ? 0 : 1 },
+    uGold: { value: new THREE.Color("#EDBE62") }, uWarm: { value: new THREE.Color("#FFF1CF") }
+  };
+  const mat = new THREE.ShaderMaterial({
+    uniforms, transparent: true, depthWrite: false, blending: THREE.AdditiveBlending,
+    vertexShader: `
+      uniform float uTime,uAssemble,uDisperse,uPR,uSize,uFlap; uniform vec2 uMouse;
+      attribute vec3 aScatter; attribute vec4 aSeed; varying float vA; varying float vMix;
+      void main(){
+        vec3 p = position;
+        float a = uFlap * (sin(uTime*2.1 + p.y*0.15)*0.5+0.5) * 0.95;
+        p = vec3(p.x*cos(a), p.y, p.z + abs(p.x)*sin(a)*0.6);
+        p.y += sin(uTime*0.7)*0.12;
+        vec2 d = p.xy - uMouse; float m = smoothstep(1.3, 0.0, length(d));
+        p.xy += normalize(d + 1e-4) * m * 0.55 * uAssemble;
+        float delay = aSeed.x * 0.55;
+        float as = clamp((uAssemble - delay) / 0.45, 0.0, 1.0);
+        as = as*as*(3.0-2.0*as);
+        vec3 drift = aScatter + vec3(sin(uTime*0.25+aSeed.y*6.28)*0.6, mod(uTime*0.18 + aSeed.z*12.0, 12.0) - 6.0 - aScatter.y*0.0, 0.0);
+        drift.y = aScatter.y*0.25 + drift.y;
+        float ds = clamp((uDisperse - aSeed.y*0.35)/0.65, 0.0, 1.0);
+        vec3 pos = mix(drift, p, as * (1.0 - ds));
+        vMix = as * (1.0 - ds);
+        vec4 mv = modelViewMatrix * vec4(pos, 1.0);
+        gl_Position = projectionMatrix * mv;
+        float tw = 0.65 + 0.35*sin(uTime*(1.2+aSeed.z*2.0) + aSeed.w*3.0 + aSeed.x*40.0);
+        float sz = mix(1.5, mix(0.7, 1.25, aSeed.w), vMix) * (0.55 + aSeed.z*0.7);
+        gl_PointSize = uSize * sz * uPR * tw / -mv.z;
+        vA = tw * mix(0.5, 1.0, vMix);
+      }`,
+    fragmentShader: `
+      uniform vec3 uGold,uWarm; varying float vA; varying float vMix;
+      void main(){
+        vec2 c = gl_PointCoord - 0.5; float d = length(c);
+        float s = smoothstep(0.5, 0.0, d); s = pow(s, 1.25);
+        vec3 col = mix(uWarm, uGold, 0.55 + 0.45*vMix);
+        gl_FragColor = vec4(col, s * vA);
+      }`
+  });
+  const pts = new THREE.Points(geo, mat);
+  scene.add(pts);
+
+  let W = 0, H = 0;
+  const place = () => {
+    const r = hero.getBoundingClientRect(); W = r.width; H = r.height;
+    renderer.setSize(W, H, false); camera.aspect = W / H; camera.updateProjectionMatrix();
+    const narrow = W < 760;
+    const half = camera.position.z * Math.tan(THREE.MathUtils.degToRad(21));
+    const ny = narrow ? ((H / 2 - 192) / (H / 2)) * half : 0.5;
+    pts.position.set(narrow ? 0.15 : 3.75, ny, 0);
+    pts.scale.setScalar(narrow ? 0.42 : 0.9);
+  };
+  place(); addEventListener("resize", place);
+
+  const mouse = { x: 0, y: 0, tx: 0, ty: 0 };
+  const ray = new THREE.Raycaster(), plane = new THREE.Plane(new THREE.Vector3(0, 0, 1), 0), hit = new THREE.Vector3();
+  hero.addEventListener("pointermove", (e) => {
+    const r = hero.getBoundingClientRect();
+    mouse.tx = ((e.clientX - r.left) / r.width) * 2 - 1; mouse.ty = -(((e.clientY - r.top) / r.height) * 2 - 1);
+    ray.setFromCamera({ x: mouse.tx, y: mouse.ty }, camera);
+    if (ray.ray.intersectPlane(plane, hit)) { pts.worldToLocal(hit); uniforms.uMouse.value.set(hit.x, hit.y); }
+  });
+  hero.addEventListener("pointerleave", () => uniforms.uMouse.value.set(99, 99));
+
+  let visible = true, last = performance.now(), t = 0;
+  new IntersectionObserver(([en]) => { visible = en.isIntersecting; if (visible && !reduce) requestAnimationFrame(loop); }).observe(hero);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden && visible && !reduce) { last = performance.now(); requestAnimationFrame(loop); } });
+
+  const t0 = performance.now();
+  function frame(now) {
+    const dt = Math.min((now - last) / 1000, 0.05); last = now; t += dt;
+    uniforms.uTime.value = t;
+    if (!reduce) uniforms.uAssemble.value = Math.min(1, (now - t0 - 350) / 2600 > 0 ? (now - t0 - 350) / 2600 : 0);
+    const r = hero.getBoundingClientRect();
+    uniforms.uDisperse.value = Math.min(1, Math.max(0, -r.top / (r.height * 0.75)));
+    mouse.x += (mouse.tx - mouse.x) * 0.05; mouse.y += (mouse.ty - mouse.y) * 0.05;
+    pts.rotation.y = mouse.x * 0.45 + Math.sin(t * 0.3) * 0.12;
+    pts.rotation.x = -mouse.y * 0.25;
+    camera.position.z = 9 + uniforms.uDisperse.value * 2.5;
+    renderer.render(scene, camera);
+  }
+  function loop(now) { if (!visible || document.hidden) return; frame(now); requestAnimationFrame(loop); }
+  if (reduce) frame(performance.now()); else requestAnimationFrame(loop);
+}
+</script>
+
+<script>
+(function () {
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var fine = matchMedia("(hover: hover) and (pointer: fine)").matches;
+  var hasG = typeof window.gsap !== "undefined" && typeof window.ScrollTrigger !== "undefined";
+  var fmt = function (n) { return "$" + Math.round(n).toLocaleString("en-US"); };
+
+  /* Smooth scroll */
+  var lenis = null;
+  if (hasG) gsap.registerPlugin(ScrollTrigger);
+  if (!reduce && typeof window.Lenis !== "undefined") {
+    lenis = new Lenis({ duration: 1.15, smoothWheel: true });
+    if (hasG) { lenis.on("scroll", ScrollTrigger.update); gsap.ticker.add(function (t) { lenis.raf(t * 1000); }); gsap.ticker.lagSmoothing(0); }
+    else { (function raf(t) { lenis.raf(t); requestAnimationFrame(raf); })(); }
+  }
+  $$('a[href^="#"]').forEach(function (a) {
+    a.addEventListener("click", function (e) {
+      var id = a.getAttribute("href"); if (id.length < 2) return;
+      var el = document.getElementById(id.slice(1)); if (!el) return;
+      e.preventDefault(); closeMenu();
+      if (lenis) lenis.scrollTo(el, { offset: -70 }); else el.scrollIntoView({ behavior: reduce ? "auto" : "smooth" });
+    });
+  });
+
+  /* Nav */
+  var nav = $("#lm-nav"), sticky = $("#lm-sticky"), hero = $("#hero");
+  function onScroll() {
+    var y = window.scrollY || document.documentElement.scrollTop;
+    nav.classList.toggle("is-solid", y > hero.offsetHeight - 90);
+    sticky.classList.toggle("is-on", y > hero.offsetHeight * 0.8 && y < document.body.scrollHeight - innerHeight * 1.6);
+  }
+  addEventListener("scroll", onScroll, { passive: true }); onScroll();
+  var menuBtn = $("#lm-menu-btn"), links = $("#lm-links");
+  function closeMenu() { links.classList.remove("is-open"); menuBtn.setAttribute("aria-expanded", "false"); }
+  menuBtn.addEventListener("click", function () { var o = links.classList.toggle("is-open"); menuBtn.setAttribute("aria-expanded", o ? "true" : "false"); });
+
+  /* One orchestrated load moment + scroll depth */
+  if (hasG && !reduce) {
+    var tl = gsap.timeline({ defaults: { ease: "expo.out" } });
+    tl.from(".lm-hero-bg img", { scale: 1.12, duration: 2.6, ease: "power2.out" }, 0)
+      .from(".lm-kicker", { y: 18, opacity: 0, duration: 1 }, 0.25)
+      .from(".lm-hero h1 .lm-line>span", { yPercent: 110, duration: 1.4, stagger: 0.12 }, 0.35)
+      .from(".lm-hero-sub, .lm-hero-cta", { y: 22, opacity: 0, duration: 1.1, stagger: 0.1 }, 0.8)
+      .from(".lm-proof>div", { y: 16, opacity: 0, duration: 1, stagger: 0.08 }, 1.0);
+    gsap.to(".lm-hero-bg img", { yPercent: 12, ease: "none", scrollTrigger: { trigger: hero, start: "top top", end: "bottom top", scrub: true } });
+    gsap.to(".lm-hero-in", { yPercent: -10, ease: "none", scrollTrigger: { trigger: hero, start: "top top", end: "bottom top", scrub: true } });
+    $$(".lm-space img").forEach(function (img) {
+      gsap.fromTo(img, { yPercent: -6 }, { yPercent: 6, ease: "none", scrollTrigger: { trigger: img.parentNode, start: "top bottom", end: "bottom top", scrub: true } });
+    });
+    $$("[data-count]").forEach(function (el) {
+      var end = parseFloat(el.dataset.count), dec = parseInt(el.dataset.dec || "0", 10), o = { v: 0 };
+      ScrollTrigger.create({ trigger: el, start: "top 92%", once: true, onEnter: function () {
+        gsap.to(o, { v: end, duration: 1.8, ease: "power3.out", delay: 1.1, onUpdate: function () { el.textContent = o.v.toFixed(dec); } });
+      } });
+    });
+  }
+
+  /* Day story: sticky stage, chapter-driven reveals */
+  var figs = $$(".lm-stage figure"), bars = $$(".lm-stage-count i"), chs = $$(".lm-ch");
+  function setCh(i) {
+    chs.forEach(function (c, k) { c.classList.toggle("is-on", k === i); });
+    figs.forEach(function (f, k) { f.classList.toggle("is-on", k <= i); });
+    bars.forEach(function (b, k) { b.classList.toggle("is-on", k <= i); });
+  }
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) setCh(chs.indexOf(e.target)); });
+    }, { rootMargin: "-45% 0px -45% 0px" });
+    chs.forEach(function (c) { io.observe(c); });
+  }
+
+  /* Tilt + glare on the four space cards (fine pointers only) */
+  if (fine && !reduce) {
+    $$("[data-tilt]").forEach(function (card) {
+      card.addEventListener("pointermove", function (e) {
+        var r = card.getBoundingClientRect(), px = (e.clientX - r.left) / r.width, py = (e.clientY - r.top) / r.height;
+        card.style.transform = "perspective(1100px) rotateX(" + ((0.5 - py) * 7).toFixed(2) + "deg) rotateY(" + ((px - 0.5) * 9).toFixed(2) + "deg)";
+        card.style.setProperty("--gx", (px * 100) + "%"); card.style.setProperty("--gy", (py * 100) + "%");
+      });
+      card.addEventListener("pointerleave", function () { card.style.transform = ""; });
+    });
+    /* Magnetic primary buttons */
+    $$("[data-magnetic]").forEach(function (b) {
+      b.addEventListener("pointermove", function (e) {
+        var r = b.getBoundingClientRect();
+        b.style.setProperty("--bx", ((e.clientX - r.left - r.width / 2) * 0.22).toFixed(1) + "px");
+        b.style.setProperty("--by", ((e.clientY - r.top - r.height / 2) * 0.32).toFixed(1) + "px");
+      });
+      b.addEventListener("pointerleave", function () { b.style.setProperty("--bx", "0px"); b.style.setProperty("--by", "0px"); });
+    });
+  }
+
+  /* Marquee: duplicate track for a seamless loop */
+  var track = $("#lm-track");
+  if (track && !reduce) { $$(".lm-quote", track).forEach(function (q) { var c = q.cloneNode(true); c.setAttribute("aria-hidden", "true"); track.appendChild(c); }); }
+
+  /* Copy for the dynamic parts of the page, in both languages */
+  var LANG = "en";
+  var L = {
+    en: {
+      days: { Mon: "Monday", Wed: "Wednesday", Thu: "Thursday", Fri: "Friday", Sat: "Saturday", Sun: "Sunday" },
+      short: { Mon: "Mon", Wed: "Wed", Thu: "Thu", Fri: "Fri", Sat: "Sat", Sun: "Sun" },
+      pkg: { ceremony: "ceremony and reception", reception: "reception only" },
+      dinner: "Dinner", hours: "hours", guests: "guests", per: "per guest", perShort: "/guest",
+      menus: ["South of the Border buffet", "Italian buffet", "Southwestern Cookout buffet", "Create Your Own buffet (from)", "Midday Delight brunch", "Sunrise Breakfast"],
+      warn: function (d, n) { return d + " events need at least " + n + " adult guests. Try a weekday for a smaller celebration."; },
+      sum: function (d, p, g, m, t) { return d + ", " + p + ", " + g + " guests, " + m + ". Estimate " + t + " before tax and service."; },
+      mine: "My estimate: ",
+      ok: "Preview only: on the live site this request goes straight to the La Mariposa events team.",
+      miss: "Add your first name, email and phone so Amanda can reach you."
+    },
+    es: {
+      days: { Mon: "Lunes", Wed: "Miércoles", Thu: "Jueves", Fri: "Viernes", Sat: "Sábado", Sun: "Domingo" },
+      short: { Mon: "Lun", Wed: "Mié", Thu: "Jue", Fri: "Vie", Sat: "Sáb", Sun: "Dom" },
+      pkg: { ceremony: "ceremonia y recepción", reception: "solo recepción" },
+      dinner: "Cena", hours: "horas", guests: "invitados", per: "por invitado", perShort: "/invitado",
+      menus: ["Buffet South of the Border", "Buffet italiano", "Buffet Parrillada del Suroeste", "Buffet Arma tu menú (desde)", "Brunch Midday Delight", "Desayuno Sunrise"],
+      warn: function (d, n) { return "Los eventos en " + d.toLowerCase() + " requieren al menos " + n + " invitados adultos. Prueba un día entre semana para una celebración más pequeña."; },
+      sum: function (d, p, g, m, t) { return d + ", " + p + ", " + g + " invitados, " + m + ". Estimado de " + t + " antes de impuestos y servicio."; },
+      mine: "Mi estimado: ",
+      ok: "Vista previa: en el sitio real, esta solicitud llega directo al equipo de eventos de La Mariposa.",
+      miss: "Agrega tu nombre, correo y teléfono para que Amanda pueda contactarte."
+    }
+  };
+
+  /* Price explorer: La Mariposa's published site fees */
+  var FEES = { ceremony: { Mon: 1450, Wed: 1450, Thu: 1700, Fri: 2700, Sat: 3100, Sun: 2100 }, reception: { Mon: 1100, Wed: 1100, Thu: 1400, Fri: 2300, Sat: 2600, Sun: 1900 } };
+  var HOURS = { ceremony: 5, reception: 4 }, MIN = { Fri: 75, Sat: 100, Sun: 75 };
+  var DAYKEYS = ["Mon", "Wed", "Thu", "Fri", "Sat", "Sun"];
+  var PRICES = [39, 39, 42, 42, 34, 28];
+  var daysEl = $("#lm-days"), menuEl = $("#lm-menu"), guests = $("#lm-guests");
+  DAYKEYS.forEach(function (d) {
+    daysEl.insertAdjacentHTML("beforeend", '<input type="radio" name="day" id="day-' + d + '" value="' + d + '"' + (d === "Fri" ? " checked" : "") + '><label for="day-' + d + '">' + d + "</label>");
+  });
+  function labelPricing() {
+    var t = L[LANG], sel = menuEl.value || "0";
+    $$("#lm-days label").forEach(function (lab) { lab.textContent = t.short[lab.htmlFor.slice(4)]; });
+    menuEl.innerHTML = PRICES.map(function (p, i) { return '<option value="' + i + '">' + t.menus[i] + " · $" + p + " " + t.per + "</option>"; }).join("");
+    menuEl.value = sel;
+    $$(".lm-menu-top small").forEach(function (e) { e.textContent = t.perShort; });
+  }
+  labelPricing();
+  var shown = { total: 0 };
+  function calc() {
+    var t = L[LANG];
+    var day = ($('input[name="day"]:checked') || {}).value || "Fri";
+    var pkg = ($('input[name="pkg"]:checked') || {}).value || "ceremony";
+    var g = parseInt(guests.value, 10), mi = parseInt(menuEl.value || "0", 10), pp = PRICES[mi];
+    var fee = FEES[pkg][day], food = g * pp, total = fee + food, dayName = t.days[day];
+    $("#lm-guests-out").textContent = g;
+    $("#lm-est-day").textContent = dayName + ", " + t.pkg[pkg];
+    $("#lm-est-fee").textContent = fmt(fee);
+    $("#lm-est-menu-l").textContent = t.dinner + ", " + g + " × $" + pp;
+    $("#lm-est-menu").textContent = fmt(food);
+    $("#lm-est-hours").textContent = HOURS[pkg] + " " + t.hours;
+    var w = $("#lm-warn");
+    if (MIN[day] && g < MIN[day]) { w.hidden = false; w.textContent = t.warn(dayName, MIN[day]); }
+    else w.hidden = true;
+    var out = $("#lm-est-total");
+    if (hasG && !reduce) gsap.to(shown, { total: total, duration: 0.6, ease: "power2.out", onUpdate: function () { out.textContent = fmt(shown.total); } });
+    else { shown.total = total; out.textContent = fmt(total); }
+    window.__lmEstimate = t.sum(dayName, t.pkg[pkg], g, t.menus[mi], fmt(total));
+  }
+  $("#lm-calc").addEventListener("input", calc); $("#lm-calc").addEventListener("change", calc);
+  calc();
+  $("#lm-est-send").addEventListener("click", function () {
+    var msg = $("#f-msg"); if (msg && !msg.value) msg.value = L[LANG].mine + (window.__lmEstimate || "");
+    var gi = $("#f-guests"); if (gi && !gi.value) gi.value = guests.value;
+  });
+
+  /* 3D photo ring: scroll turns it, drag spins it with inertia */
+  var ring = $("#lm-ring"), stageR = $("#lm-stage-ring"), moved = 0;
+  if (ring && innerWidth > 760 && !reduce) {
+    var scrollRot = 0, dragRot = 0, vel = 0, dragging = false, lastX = 0, ringOn = false;
+    if (hasG) ScrollTrigger.create({ trigger: stageR, start: "top bottom", end: "bottom top", scrub: true, onUpdate: function (s) { scrollRot = -s.progress * 200; } });
+    stageR.addEventListener("pointerdown", function (e) { dragging = true; lastX = e.clientX; moved = 0; vel = 0; stageR.classList.add("is-drag"); });
+    addEventListener("pointermove", function (e) { if (!dragging) return; var dx = e.clientX - lastX; lastX = e.clientX; moved += Math.abs(dx); vel = dx * 0.22; dragRot += vel; });
+    addEventListener("pointerup", function () { dragging = false; stageR.classList.remove("is-drag"); });
+    new IntersectionObserver(function (es) { ringOn = es[0].isIntersecting; if (ringOn) requestAnimationFrame(spin); }).observe(stageR);
+    var spin = function () {
+      if (!ringOn) return;
+      if (!dragging) { dragRot += vel; vel *= 0.95; }
+      ring.style.setProperty("--rot", (scrollRot + dragRot).toFixed(2) + "deg");
+      requestAnimationFrame(spin);
+    };
+  }
+
+  /* Gallery lightbox */
+  var dlg = $("#lm-dlg");
+  $$(".lm-ring-item").forEach(function (b) {
+    b.addEventListener("click", function (e) {
+      if (moved > 6) { e.preventDefault(); moved = 0; return; }
+      var img = $("img", b); $("#lm-dlg-img").src = img.getAttribute("src").replace("-m.jpg", ".jpg"); $("#lm-dlg-img").alt = img.alt; $("#lm-dlg-cap").textContent = img.alt;
+      if (dlg.showModal) dlg.showModal();
+    });
+  });
+  $("#lm-dlg-x").addEventListener("click", function () { dlg.close(); });
+  dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
+
+  /* Tour form (preview only; the live site would post to the venue's CRM) */
+  $("#lm-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    var m = $("#lm-form-msg"), f = e.target, ok = $("#f-first").value && $("#f-email").value && $("#f-phone").value;
+    m.hidden = false;
+    m.textContent = ok ? L[LANG].ok : L[LANG].miss; m.dataset.state = ok ? "ok" : "miss";
+  });
+  /* English / Spanish */
+  var ES = {"concept": "Concepto de rediseño para La Mariposa Resort. No es el sitio oficial: visita <a href=\"https://lamariposaresort.com/\" target=\"_blank\" rel=\"noopener\">lamariposaresort.com</a>", "markSub": "Bodas y eventos especiales", "navEstate": "El lugar", "navDay": "Un día aquí", "navPrice": "Precios", "navMenus": "Menús", "navReviews": "Reseñas", "navFaq": "Preguntas", "navCta": "Agenda una visita", "menuBtn": "Menú", "kicker": "Un jardín privado para bodas y celebraciones en Tucson", "h1a": "Cásate bajo", "h1b": "los mezquites.", "heroSub": "Jardines verdes, un gazebo junto al estanque y las montañas Santa Catalina detrás de tus votos. Comida, bar, DJ y tu coordinadora de eventos son del mismo equipo, así que planear se siente como una sola conversación y no como ocho.", "heroCta1": "Agenda una visita privada", "heroCta2": "Mira el precio de tu fecha", "p1": "Calificación en WeddingWire de 141 parejas", "p2": "de las parejas recomiendan La Mariposa", "p3": "Ganador del Couples' Choice de WeddingWire", "p4": "Calificación en Google con 182 reseñas", "whyH": "Ya visitaste los salones del desierto. <span class=\"lm-it\">¿Alguno se sintió como un oasis?</span>", "q1": "¿Y si llega el calor de julio o una tormenta de monzón?", "a1": "Pasan adentro sin perder la vista. <b>El Starlight Room</b> tiene un tragaluz sobre la pista de baile y ventanales hacia el jardín, y viene incluido en todos los paquetes. Las parejas a las que les llovió ese día cuentan que el cambio fue impecable.", "q2": "¿Cuánto va a costar de verdad?", "a2": "Las tarifas del lugar están publicadas, día por día, <b>desde $1,100</b>. Elige tu fecha y tus invitados abajo y verás una cifra real antes de levantar el teléfono.", "q3": "¿Con cuántos proveedores voy a tener que lidiar?", "a3": "Comida, bar, mantelería, sillas Chiavari doradas, un DJ de la casa y tu coordinadora de eventos vienen de <b>un solo equipo</b>. Solo agregas flores y pastel con proveedores recomendados que ya conocen el lugar.", "spH": "Un lugar, <span class=\"lm-it\">cuatro maneras de celebrar.</span>", "spLede": "Todos los paquetes incluyen el jardín, el Starlight Room, la suite de la novia y el cuarto del novio durante todo tu evento.", "s1h": "El jardín y el gazebo", "s1p": "Mezquites en cascada enmarcan el gazebo. Las sillas blancas acolchadas se colocan sobre el césped y las montañas ponen el fondo.", "s1t": "Incluye un ensayo de cortesía de 1 hora", "s2h": "El Starlight Room", "s2p": "Sillas Chiavari doradas, mesas redondas de 60 pulgadas para diez, espejos, vajilla blanca y cristalería, y baile bajo el tragaluz.", "s2t": "4 horas de cortesía para el montaje", "s3h": "El estanque y los patios", "s3p": "Retratos a la hora dorada junto al agua, una fogata elevada con asientos y luces blancas colgadas sobre ambos patios.", "s4h": "La suite de la novia y el cuarto del novio", "s4p": "Dos espacios privados para arreglarse, para que nadie se vea antes de tiempo.", "s4l1": "Espejo triple de 7 pies y tocador de maquillaje con espejo", "s4l2": "Baño completo y patio privado con mesa y sillas", "s4l3": "Cuarto del novio con acceso al patio y pantalla grande con canales deportivos", "dayH": "Un día en <span class=\"lm-it\">La Mariposa.</span>", "c1t": "La llegada", "c1h": "Los invitados llegan a la sombra de los mezquites.", "c1p": "Césped verde, árboles maduros y las Catalinas en el horizonte. Los invitados siempre dicen lo mismo: no pueden creer que esto sea Tucson.", "c2t": "La ceremonia", "c2h": "Votos en el gazebo, con las montañas detrás.", "c2p": "Sillas blancas acolchadas, un pasillo lleno de flores y un ensayo de cortesía previo para que todos sepan su lugar.", "c3t": "La hora dorada", "c3h": "Retratos en el estanque. Bocadillos junto a la fogata.", "c3p": "Mientras tomas las fotos que tu fotógrafo ha estado esperando, los invitados se reúnen en los patios bajo luces blancas.", "c4t": "La recepción", "c4h": "Cena en el Starlight Room y luego baile bajo el tragaluz.", "c4p": "Comida de la cocina de La Mariposa, un bar atendido por nuestro equipo y el DJ de la casa, John, manteniendo la pista llena.", "prH": "Precios reales, <span class=\"lm-it\">al instante.</span>", "prLede": "La mayoría de los lugares te hacen llamar para darte un precio. Elige el día, el paquete, los invitados y el menú, y mira al instante los precios publicados de La Mariposa.", "lgDay": "Día de la semana", "noteTue": "Los martes son bajo solicitud. Puede haber descuentos de temporada en fechas selectas de invierno y verano.", "lgPkg": "Paquete", "pkgC": "Ceremonia y recepción<small>5 horas de evento</small>", "pkgR": "Solo recepción<small>4 horas de evento</small>", "lbGuests": "Invitados adultos", "lbMenu": "Menú de cena", "noteKids": "Niños de 3 a 12 años: plato servido por $20. Menores de 2 comen gratis.", "noteEst": "Tarifa estimada del lugar más la cena, antes de impuestos y del cargo por servicio del 20% sobre comida y bar.", "dtFee": "Tarifa del lugar", "dtTime": "Duración", "estSend": "Guarda este estimado y agenda tu visita", "inc1": "<b>Sillas Chiavari doradas</b>Con cojín, más sillas blancas acolchadas para la ceremonia.", "inc2": "<b>Mantelería y vajilla</b>Manteles y servilletas a tu elección, vajilla blanca, cristalería y cubiertos.", "inc3": "<b>Los cuatro espacios</b>Jardín, Starlight Room, suite de la novia y cuarto del novio.", "inc4": "<b>Tiempo extra si lo necesitas</b>Cada hora adicional cuesta $500. Carpas y mantelería especial se cotizan aparte.", "mnH": "Cocinado aquí. <span class=\"lm-it\">Servido por nuestro equipo.</span>", "mnLede": "Cada plato sale de la cocina de La Mariposa. El buffet South of the Border es el que más mencionan las parejas en sus reseñas.", "m2": "Arma tu menú", "m3": "Parrillada del Suroeste", "m4": "Italiano", "m5": "Brunch Midday Delight", "m6": "Desayuno Sunrise", "ml1": "Tacos de carne asada o pollo, enchiladas, fajitas", "ml2": "Chile relleno con salsa verde", "ml3": "Arroz, frijoles, totopos frescos y salsa", "ml4": "Prime rib en corte con rábano picante y au jus", "ml5": "Salmón al horno con salsa de eneldo o salsa tropical", "ml6": "Top sirloin asado al mezquite", "ml7": "Sirloin al mezquite y pollo honey bourbon", "ml8": "Flank steak con salsa de miel y jalapeño", "ml9": "Frijoles ranch o elote fiesta, pan de maíz", "ml10": "Pollo a la parmesana, marsala o piccata", "ml11": "Lasaña de carne o vegetariana, berenjena a la parmesana", "ml12": "Pan de ajo con ensalada y verdura", "ml13": "Huevos revueltos o frittata de espinaca y cheddar", "ml14": "Pan danés, bagels y dos ensaladas", "ml15": "Se sirve hasta la 1 p.m.", "ml16": "Servido en plato o tipo buffet", "ml17": "Huevos con salsa casera, tocino o salchicha", "ml18": "Fruta o parfait de yogur, panes y bagels", "lateH": "Antojos de medianoche", "late1": "<b>Barra de s'mores</b> sin costo", "late2": "<b>Food truck de Sonoran dogs</b> $9 c/u", "late3": "<b>Barra de tater tots</b> con chili y queso, $7 c/u", "rvH": "4.8 estrellas de <span class=\"lm-it\">141 parejas.</span>", "rvLede": "Negocio familiar dirigido por Steve y Francesca Brennan. Lee todas las reseñas en <a href=\"https://www.weddingwire.com/reviews/la-mariposa-resort-weddings-special-events-tucson/dfce76953fa1b94d.html\" target=\"_blank\" rel=\"noopener\">WeddingWire</a>, <a href=\"https://www.theknot.com/marketplace/la-mariposa-resort-tucson-az-542781\" target=\"_blank\" rel=\"noopener\">The Knot</a> y Google. Las citas son reseñas originales en inglés.", "cap1": "<b>Devon</b>, WeddingWire, marzo 2024", "cap2": "<b>Max S.</b>, WeddingWire, febrero 2023", "cap3": "<b>Reyna</b>, WeddingWire, junio 2024", "cap4": "<b>Amy E.</b>, WeddingWire, junio 2024", "cap5": "<b>Craig</b>, fotógrafo de bodas, WeddingWire, junio 2026", "tm1": "Dueño y gerente general", "tm2": "Gerente de eventos, tu aliada desde la visita hasta el último baile", "tm3": "DJ de la casa de La Mariposa por más de dos décadas, y oficiante frecuente", "glH": "Velo con <span class=\"lm-it\">tus propios ojos.</span>", "glLede": "Desliza o arrastra para ver bodas reales en La Mariposa y toca cualquier foto para verla completa.", "glHint": "Arrastra para girar", "glCredit": "Fotografía de Steven Palm Photography y Neal Kreuser Photography, ambos proveedores recomendados de La Mariposa.", "close": "Cerrar", "fqH": "Lo que debes saber <span class=\"lm-it\">antes de reservar.</span>", "fq1": "¿Podemos traer nuestro propio catering, pastel o alcohol?", "fa1": "La Mariposa es un establecimiento con licencia, así que toda la comida sale de nuestra cocina y todo el alcohol lo sirve nuestro equipo de bar. La única excepción es el postre: puedes traer un pastel de una pastelería con licencia, con un cargo de $4 por persona por postres externos.", "fq2": "¿Hay un mínimo de invitados?", "fa2": "Los eventos en sábado requieren al menos 100 invitados adultos. Viernes y domingo, al menos 75. Entre semana no hay un mínimo publicado.", "fq3": "¿Cómo funciona el depósito?", "fa3": "Un depósito no reembolsable del 25% reserva tu fecha. Otro 25% se paga tres meses después de reservar. Ambos se aplican a tu saldo final, y tu contrato detalla cada fecha y condición.", "fq4": "¿En qué horario podemos usar el lugar?", "fa4": "Los eventos se realizan entre las 10 a.m. y la 1 a.m. Los paquetes de ceremonia y recepción incluyen 5 horas, los de solo recepción 4, y el Starlight Room abre 4 horas antes para el montaje. El tiempo extra cuesta $500 por hora.", "fq5": "¿Hay reglas de decoración?", "fa5": "No proporcionamos centros de mesa, pero con gusto te recomendamos un florista. Afuera no se permite arroz ni pétalos artificiales; las burbujas y el alpiste son bienvenidos. Nada de brillantina ni confeti en las mesas.", "fq6": "¿Organizan eventos además de bodas?", "fa6": "Sí. Quinceañeras, bar mitzvahs, aniversarios, recepciones conmemorativas, reuniones de negocios pequeñas y grandes eventos corporativos encajan perfecto en el lugar.", "fq7": "¿Cómo llegan los invitados?", "fa7": "Estamos en 1501 N. Houghton Rd., Tucson, AZ 85749. Solo se puede entrar por N Houghton Rd., así que inclúyelo en tus invitaciones.", "ctH": "Conócelo a <span class=\"lm-it\">la hora dorada.</span>", "ctLede": "Una visita es la mejor forma de saberlo. Cuéntanos tu fecha y Amanda coordinará un horario para recorrer el lugar contigo.", "ci1": "Equipo de eventos", "ci2": "Línea principal", "ci3": "Correo", "ci4": "Dirección", "f1": "Nombre", "f2": "Apellido", "f3": "Correo", "f4": "Teléfono", "f5": "Fecha del evento", "f6": "Invitados estimados", "f7": "Tipo de evento", "f8": "¿Algo que debamos saber?", "o1": "Boda", "o3": "Evento corporativo", "o4": "Aniversario o celebración", "o5": "Otro", "fSubmit": "Solicitar mi visita", "ftVend": "Proveedores recomendados", "stTour": "Agenda una visita", "stPrice": "Precios"};
+  var i18nEls = $$("[data-i18n]");
+  i18nEls.forEach(function (el) { el.__en = el.innerHTML; });
+  function setLang(l) {
+    LANG = l === "es" ? "es" : "en";
+    document.documentElement.lang = LANG;
+    i18nEls.forEach(function (el) { var k = el.getAttribute("data-i18n"); el.innerHTML = LANG === "es" && ES[k] ? ES[k] : el.__en; });
+    $$(".lm-lang button").forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.lang === LANG ? "true" : "false"); });
+    labelPricing(); calc();
+    var fm = $("#lm-form-msg"); if (!fm.hidden && fm.dataset.state) fm.textContent = L[LANG][fm.dataset.state];
+    try { localStorage.setItem("lm-lang", LANG); } catch (e) {}
+    if (hasG) ScrollTrigger.refresh();
+  }
+  $$(".lm-lang button").forEach(function (b) { b.addEventListener("click", function () { setLang(b.dataset.lang); }); });
+  var startLang = "en";
+  try { startLang = localStorage.getItem("lm-lang") || startLang; } catch (e) {}
+  if (/^#es$/i.test(location.hash)) startLang = "es";
+  if (/^#en$/i.test(location.hash)) startLang = "en";
+  if (startLang === "es") setLang("es");
+})();
+</script>
+
+</body>
+</html>
